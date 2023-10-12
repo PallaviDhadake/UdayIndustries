@@ -1,0 +1,180 @@
+
+09/10/2023 01:51 PM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+09/10/2023 01:51 PM
+ASP.adminpanel_news_master_aspx
+btnSave_Click
+Invalid column name 'newsDesc'.
+
+
+09/10/2023 01:53 PM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+09/10/2023 05:58 PM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+12/10/2023 10:21 AM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+12/10/2023 11:00 AM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+12/10/2023 11:26 AM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+12/10/2023 12:11 PM
+ASP.adminpanel_case_study_photos_aspx
+btnSave_Click
+Could not find a part of the path 'E:\Websites\UdayIndustries\upload\casePhotos\original\case_photo1.jpg'.
+
+
+12/10/2023 01:24 PM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+12/10/2023 01:25 PM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+12/10/2023 01:27 PM
+ASP.adminpanel_career_master_aspx
+btnSave_Click
+String or binary data would be truncated.
+The statement has been terminated.
+
+
+12/10/2023 01:29 PM
+ASP.adminpanel_career_master_aspx
+btnSave_Click
+String or binary data would be truncated.
+The statement has been terminated.
+
+
+12/10/2023 01:30 PM
+ASP.adminpanel_career_master_aspx
+btnSave_Click
+String or binary data would be truncated.
+The statement has been terminated.
+
+
+12/10/2023 01:33 PM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+12/10/2023 01:35 PM
+ASP.adminpanel_career_master_aspx
+btnSave_Click
+String or binary data would be truncated.
+The statement has been terminated.
+
+
+12/10/2023 02:45 PM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+12/10/2023 02:56 PM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+12/10/2023 03:30 PM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+12/10/2023 04:46 PM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+12/10/2023 04:47 PM
+ASP.adminpanel_video_gallery_aspx
+FillGrid
+Incorrect syntax near the keyword 'From'.
+
+
+12/10/2023 04:58 PM
+ASP.adminpanel_video_gallery_aspx
+btnSave_Click
+Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ', 0)'.
+
+
+12/10/2023 05:01 PM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+12/10/2023 05:29 PM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+12/10/2023 05:37 PM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+12/10/2023 05:38 PM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+12/10/2023 05:38 PM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+12/10/2023 05:39 PM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+12/10/2023 05:40 PM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
+12/10/2023 05:40 PM
+ASP.adminpanel_dashboard_aspx
+GetCount
+Invalid object name 'ProductCategory'.
+
+
