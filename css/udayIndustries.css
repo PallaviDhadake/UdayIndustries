@@ -1001,9 +1001,12 @@ body{overflow-y: scroll !important; overflow: initial}
 
 
 
+/*================================================= Uday Innovations Css =============================================*/
 
-
-
+.procatinnov1{background:url("../images/products/innovation/Bagasse-Carrier.jpg") no-repeat center center; width:100%; height:200px;}
+.procatinnov2{background:url("../images/products/innovation/drop-forged.jpg") no-repeat center center; width:100%; height:200px;}
+.procatinnov3{background:url("../images/products/innovation/fabricated-chain.jpg") no-repeat center center; width:100%; height:200px;}
+.procatinnov4{background:url("../images/products/innovation/cane-carrier-chain.jpg") no-repeat center center; width:100%; height:200px;}
 
 
 

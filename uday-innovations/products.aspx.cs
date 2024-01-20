@@ -4,13 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Data;
-public partial class uday_reshellers_MasterParent : System.Web.UI.MasterPage
+
+public partial class uday_innovations_products : System.Web.UI.Page
 {
-    iClass c = new iClass();
-    public string currentYear, rootPath;
     protected void Page_Load(object sender, EventArgs e)
     {
-        rootPath = c.ReturnHttp();
+
     }
 }

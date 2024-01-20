@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterParent.master.cs" Inherits="uday_reshellers_MasterParent" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterParent.master.cs" Inherits="uday_innovations_MasterParent" %>
 
 <!DOCTYPE html>
 
@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Uday Reshellers & cast Alloys LLp.</title>
+    <title>Uday Innovations.</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -40,14 +40,11 @@
         .reveal {position: relative; transform: translateY(150px); opacity: 0; transition: all 2s ease;}
         .reveal.activate {transform: translateY(0px);opacity: 1;}
     </style>
-
-
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-<%-- Header Starts --%>
-   <div id="navigationBar">
+     <div id="navigationBar">
         <div class="bg-white">
             <div class="container-fluid">
                 <div class="p-2">
@@ -57,16 +54,16 @@
                 <!-- Navigations Start -->
 
                 <a href="#bannerSp" title="Uday Reshellers & cast Alloys LLp." class="txtDecNone">
-                    <img src="<%=rootPath + "images/uday-reshellers-logo.png"%>" alt="Uday Reshellers & cast Alloys LLp." class="logo me-2" /></a>
+                    <img src="<%=rootPath + "images/uday-chains-logo.png"%>" alt="Uday Reshellers & cast Alloys LLp." class="logo me-2" /></a>
                     <span class="semiBold semiMedium text-decoration-none">Uday Reshellers & cast Alloys LLp.</span>
                     <div id="nav">
                         <div id="topNavPanel">
                             <div class="">
                                 <ul id="topNav">
                                     <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
-                                    <li><a href="<%=rootPath%>">Home</a></li>
-                                    <li><a href="about-us">About Us</a></li>
-                                    <li><a href="products">Products</a></li>
+                                    <li><a href="#about">Home</a></li>
+                                    <li><a href="#about">About Us</a></li>
+                                    <li><a href="#serv">Products</a></li>
                                     <li><a href="#contact">Contact</a></li>
                                 </ul>
                                 <div class="float_clear"></div>
@@ -98,7 +95,6 @@
                 </div>
         </div>
     </div>
-<%-- Header End --%>
     <form id="form1" runat="server">
     <div>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
@@ -106,7 +102,6 @@
         </asp:ContentPlaceHolder>
     </div>
     </form>
-    <%-- Footer starts --%>
      <!-- footer start -->
 
     <div class="footer">
@@ -119,9 +114,9 @@
                         <h4 class="footerCaption clrWhite mb-2 semiBold upperCase letter-sp-2">Main Menu</h4>
                         <!-- <div class="fLine mb-3"><span class="fAbsLine"></span></div>-->
                         <ul class="footerNav">
-                            <li><a href="<%=rootPath%>">Home</a></li>
-                            <li><a href="about-us">About</a></li>
-                            <li><a href="products">Products</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Products</a></li>
                             <li><a href="#">Contact us</a></li>
                         </ul>
                     </div>
@@ -316,6 +311,5 @@
             preloader.style.display = 'none';
         }, 1000);
     </script>
-   
 </body>
 </html>

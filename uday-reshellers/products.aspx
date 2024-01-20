@@ -1,58 +1,7 @@
-﻿<%@ Page Title="Products | Uday Reshellers & cast Alloys LLp." Language="C#" MasterPageFile="~/uday-reshellers/MasterParent.master" AutoEventWireup="true" CodeFile="products.aspx.cs" Inherits="products" %>
-
+﻿<%@ Page Title="Products | Uday Reshellers & cast Alloys LLp." Language="C#" MasterPageFile="~/uday-reshellers/MasterParent.master" AutoEventWireup="true" CodeFile="products.aspx.cs" Inherits="uday_reshellers_products" %>
+<%@ MasterType VirtualPath="~/uday-reshellers/MasterParent.master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-   <%-- <style>
-        #nav-container {
-            position: absolute;
-            top: 500px;
-            width: 100%;
-            z-index: 1000;
-            background-color: #fff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            visibility: hidden;
-            transition: visibility 0.3s ease-in-out;
-        }
-
-        #prodnav {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-            #prodnav li {
-                display: inline-block;
-                margin-right: 15px;
-            }
-
-                #prodnav li a {
-                    text-decoration: none;
-                    color: #333;
-                    display: block;
-                    padding: 10px; /* Adjust the padding as needed */
-                }
-    </style>
-
-    <script>
-        window.addEventListener("scroll", function () {
-            var mainNavbarHeight = parent.document.getElementById("main-navbar").clientHeight;
-            var navContainer = document.getElementById("nav-container");
-            var scrollPosition = window.scrollY;
-
-            if (scrollPosition > mainNavbarHeight) {
-                navContainer.style.position = "fixed";
-                navContainer.style.top = "500px";
-                navContainer.style.width = "100%";
-                navContainer.style.visibility = "visible";
-            } else {
-                navContainer.style.position = "absolute";
-                navContainer.style.top = "0";
-                navContainer.style.visibility = "hidden";
-            }
-        });
-
-    </script>--%>
-
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
       <%-- Banner starts --%>

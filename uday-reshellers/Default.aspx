@@ -11,7 +11,7 @@
         <div class="headerOverlay d-flex align-items-center justify-content-center">
             <div class="container">
                 <div class="p-4">
-                    <h1 class="semiBold colorSec text-uppercase">About us</h1>
+                    <h1 class="semiBold colorSec text-uppercase">Uday Reshellers</h1>
                     <h2 class="pgsubtitle" data-aos="fade-right" data-aos-duration="1000">About Reshellers & cast Alloys LLp.</h2>
                     <div class="float_clear"></div>
                 </div>
@@ -27,10 +27,14 @@
     <span class="space40"></span>
     <section id="aboutresh">
         <div class="container">
-              <div class="section-title">
+            <div class="section-title">
                 <h2 class="text-center">About Us</h2>
             </div>
-            <p class="fontRegular small line-ht-5"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p class="fontRegular small line-ht-5">
+                We are one of the most prominent names in the industry for the manufacturing and supplying of the bets quality range of Sugar Mill Roller and Spare Parts. These Rollers are available in different Sizes as per the requirement of the clients. These sugar mills are manufactured using high grade raw material for reliability. We do not make compromise in terms of quality and so we test these mills on different quality parameters for flawless performance.
+                <span class="space10"></span>
+                We are leading manufacturers and suppliers of a defect free range of Spare parts of Sugar Mills and have carved a niche for ourselves in this product category. This range consists of Sugar mill bearings, Rollers and Mill spare parts. These can also be customized as per client specifications.   These spare parts are made in hi-tech manufacturing facilities under an experienced team of Quality controllers. These parts have high tensile strength, are durable and have a long service life. They also have easy installation features which make them highly desirable in this industry segment. 
+            </p>
         </div>
     </section>
     <span class="space40"></span>
@@ -46,7 +50,7 @@
             </div>
             <span class="space20"></span>
             <div class="row">
-                <a href="#" class="col-md-3 text-decoration-none">
+                <a href="sugar-mill-rollers" class="col-md-3 text-decoration-none">
                     <div class="p-2">
                         <div class="procat1">
                             <div class="overlyBannr">
@@ -57,7 +61,7 @@
                         </div>
                     </div>
                 </a>
-                 <a href="#" class="col-md-3 text-decoration-none">
+                 <a href="products/#canehandling" class="col-md-3 text-decoration-none">
                     <div class="p-2">
                         <div class="procat2">
                             <div class="overlyBannr d-flex align-items-center justify-content-center">
@@ -68,7 +72,7 @@
                         </div>
                     </div>
                 </a>
-                 <a href="#" class="col-md-3 text-decoration-none">
+                 <a href="products#canerpreparation" class="col-md-3 text-decoration-none">
                     <div class="p-2">
                         <div class="procat3">
                             <div class="overlyBannr d-flex align-items-center justify-content-center">
@@ -79,7 +83,7 @@
                         </div>
                     </div>
                 </a>
-                 <a href="#" class="col-md-3 text-decoration-none">
+                 <a href="products#canemilling" class="col-md-3 text-decoration-none">
                     <div class="p-2">
                         <div class="procat4">
                             <div class="overlyBannr d-flex align-items-center justify-content-center">
