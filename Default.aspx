@@ -1,16 +1,19 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Uday Group Of Industries | Uday Chains | Uday Reshellers & Cast Alloys LLp. | Uday Engineering Works</title>
+    <title>Uday Group Of Industries | Uday Innovations | Uday Reshellers & cast Alloys LLp. | Uday Engineering Works</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
-    <!-- Font Lato -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+     <!-- Font Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet"/>
 
 
     <!--<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,27 +42,14 @@
     <link href="css/udayIndustries.css" rel="stylesheet" />
 
     <style>
-        .height {
-            height: 600px;
-        }
+        .height {height: 600px;}
         /*Revel Scroll animation*/
-        .reveal {
-            position: relative;
-            transform: translateY(150px);
-            opacity: 0;
-            transition: all 2s ease;
-        }
-
-            .reveal.activate {
-                transform: translateY(0px);
-                opacity: 1;
-            }
+        .reveal {position: relative; transform: translateY(150px); opacity: 0; transition: all 2s ease;}
+        .reveal.activate {transform: translateY(0px);opacity: 1;}
     </style>
 
-
-
 </head>
-<body class="bg-white">
+    <body class="bg-white">
     <!-- PreLoader starts -->
     <div class="preloader-container">
         <div class="gears">
@@ -661,7 +651,7 @@
                         <!--<div class="fLine mb-3"><span class="fAbsLine"></span></div>-->
                         <div class="">
                             <ul class="footerNav">
-                                <li><a href="<%=rootPath%>">Uday Chains</a></li>
+                                <li><a href="<%=rootPath%>">Uday Innovations</a></li>
                                 <li><a href="about-us">Uday Reshellers & Cast Alloys LLP.</a></li>
                                 <li><a href="our-products">Uday Engineering Works</a></li>
                             </ul>
@@ -702,7 +692,7 @@
         <div class="comfootbg">
             <div class="container">
                 <div class="p-3">
-                    <span class="clrGrey mrg_B_5 small fontRegular">&copy; 2023 |  Uday Group Of Industries , All Rights Reserved</span>
+                    <span class="clrGrey mrg_B_5 small fontRegular">&copy; <%=currentYear %> |  Uday Group Of Industries , All Rights Reserved</span>
                     <span class="clrGrey small fontRegular">Website By <a href="http://www.intellect-systems.com" target="_blank" class="intellect" title="Website Design and Development Service By Intellect Systems">Intellect Systems</a></span>
                 </div>
             </div>
@@ -819,7 +809,7 @@
             var stickyHeaderTop = $('#navigationBar').offset().top;
 
             $(window).scroll(function () {
-                //alert("alert1");
+                alert("alert1");
                 if ($(window).scrollTop() > stickyHeaderTop) {
                     $('#navigationBar').css({ position: 'fixed', top: '0px' });
                     $('#navigationBar').css('display', 'block');
@@ -835,6 +825,7 @@
 
     <script type="text/javascript">
         function openNav() {
+            alert("open nav called")
             document.getElementById("topNavPanel").style.width = "320px";
             document.getElementById("navBtn").style.zIndex = "0";
         }

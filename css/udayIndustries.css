@@ -123,8 +123,6 @@ body{overflow-y: scroll !important; overflow: initial}
 .preloader {position: fixed; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; background-color: #ffff; overflow: hidden; z-index: 100;}
 .preloader .text-container {display: flex; flex-direction: row; gap: 1em; overflow: hidden; color: white; opacity: 0;}
 
-
-
 /*===========Header start===============*/
 
 .prodCatlog{background:#ed3237; padding:10px; color:#fff; /*height:0px; width:40px;*/ position:fixed; right:0; top :33%; text-decoration:none; z-index:9999; border-radius: 5px 0px 0px 5px; -webkit-box-shadow: -2px 2px 5px 0px rgba(148,148,148,1);-moz-box-shadow: -2px 2px 5px 0px rgba(148,148,148,1);box-shadow: -2px 2px 5px 0px rgba(148,148,148,1); transition:0.5s}
@@ -178,13 +176,14 @@ body{overflow-y: scroll !important; overflow: initial}
 /* Navigation */
 
 /* Navigation */
-#topNavPanel{width:100%; -moz-transition:0.5s; -o-transition:0.5s; -webkit-transition:0.5s; transition:0.5s;}
+#navrbar, #navigationBar{position:fixed; z-index:11112; top:0; background:#fff !important; width:100% !important; box-shadow: 5px 15px 25px rgba(0,0,0,0.3)}
+#topNavPanel{width:100% !important; -moz-transition:0.5s; -o-transition:0.5s; -webkit-transition:0.5s; transition:0.5s;}
 #topNav{list-style:none; float:right; margin-top:-60px; margin-right:0;}
 #topNav li{display:inline; position:relative}
-#topNav li a{font-family: 'Open Sans', sans-serif; position:relative; font-weight:600; display:inline-block; text-decoration:none;color:#171717;font-size:1em;line-height:1.5;padding:10px 12px; letter-spacing:1px; transition:0.5s;}
+#topNav li a{font-family: 'Open Sans', sans-serif; position:relative; font-weight:600; display:inline-block; text-decoration:none;color:#0089cf;font-size:1em;line-height:1.5;padding:10px 12px; letter-spacing:1px; transition:0.5s; border:2px solid #fff;}
 /*#topNav li a:before{content:''; position:absolute; left:50%; transform: translate(-50%, 0); bottom:5px; width:0; height:2px; background:#719558; transition:0.5s;}*/
 #topNav li a.subNav{background:url(../images/icons/navArrow.png) no-repeat right center;padding-right:23px!important; cursor:pointer;}
-#topNav li a:hover{color:#f7780b;}
+#topNav li a:hover{border:2px solid #0089cf; border-radius:20px;}
 #topNav li a:hover:before{width:100%;}
 #topNav li a.actPage{background:#57C6C0;}
 #topNav li.app{display:none;}
@@ -550,7 +549,7 @@ body{overflow-y: scroll !important; overflow: initial}
 .aboutborder{border-radius:50% !important; background:#00b5f0}
 
 /*.section-title{color: #e06c33; font-weight:600; letter-spacing:5px; text-transform: uppercase;}
-*/.shorline{background: #6d5b56; height: 3px; width: 100px; display: inline-block; margin-top:0 !important}
+*/.shorline{background: #ffa000; height: 3px; width: 100px; display: inline-block; margin-top:0 !important}
 
 .about-img, .feature-img{position: relative; height: 100%; min-height: 400px; margin-top:90px;}
 .about-img img, .feature-img img{position: absolute; width:60%; height:60%;}
@@ -731,7 +730,8 @@ body{overflow-y: scroll !important; overflow: initial}
 .breakWord{word-wrap:break-word;}
 
 .pg_TB_pad {padding: 6em 0em;}
-.headerOverlay {background: rgba(0,0,0,0.5); display: block; height: 280px;}
+.headerOverlay {background: rgba(0,0,0,0.5); display: block; height: 
+                450px;}
 .pgHeader1 {
     background: url("../images/page-headers/pg-header.jpg") no-repeat center center;
     background-size: cover;
@@ -743,9 +743,9 @@ body{overflow-y: scroll !important; overflow: initial}
     height: 300px;
 }
 .pgHeader3 {
-    background: url("../images/pg-header5.jpg") no-repeat center center;
+    background: url("../images/page-headers/pg-header.jpg") no-repeat center center;
     background-size: cover;
-    height: 300px;
+    height: 450px;
 }
 .pgHeader4 {
     background: url("../images/pg-header7.jpg") no-repeat center center;
@@ -978,7 +978,38 @@ body{overflow-y: scroll !important; overflow: initial}
     transform: translateY(2px);
 }
 
-/*======================================================= Media Queries================================================*/
+
+
+/*================================================= Uday Reshellers Css =============================================*/
+.reshellerbanner{background:url("../images/back-banner.jpg") no-repeat center center; background-size:cover; width:100%; height:400px; z-index:999;}
+#prodnav{list-style:none;  /*margin-right:-500px !important;*/}
+#prodnav li{display:inline; position:relative}
+#prodnav li a{font-family: 'Open Sans', sans-serif; position:relative; font-weight:600; display:inline-block; text-decoration:none;color:#0089cf;font-size:1em;line-height:1.5;margin-left:20px; padding:10px 12px; letter-spacing:1px; transition:0.5s; border:2px solid #0089cf;}
+#prodnav li a:hover{border-radius:30px;}
+.procat1{background:url("../images/products/sugar-mills-roller.jpg") no-repeat center center; width:100%; height:200px;}
+.procat2{background:url("../images/products/cane-handing-equipment.jpg") no-repeat center center; width:100%; height:200px;}
+.procat3{background:url("../images/products/cane-preparation.jpg") no-repeat center center; width:100%; height:200px;}
+.procat4{background:url("../images/products/cane-milling.jpg") no-repeat center center; width:100%; height:200px;}
+#ourprodresh .col-md-3{transition:0.5s}
+#ourprodresh .col-md-3:hover .procat1{border-bottom:3px solid #ffa000;}
+#ourprodresh .col-md-3:hover .procat2{border-bottom:3px solid #ffa000;}
+#ourprodresh .col-md-3:hover .procat3{border-bottom:3px solid #ffa000;}
+#ourprodresh .col-md-3:hover .procat4{border-bottom:3px solid #ffa000;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*====================================================== Media Queries================================================*/
 @media (max-width: 1200px) {
     .breadmenu{display:block !important;}
     .breadmenu span{display:none;}

@@ -1,0 +1,352 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterParent.master.cs" Inherits="uday_reshellers_MasterParent" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Uday Reshellers & cast Alloys LLp.</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <%-- Font lato --%>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet"/>
+
+    <script src="../js/jquery-2.2.4.min.js"></script>
+
+     <!-- FancyBox -->
+    <link href="../css/jquery.fancybox.css" rel="stylesheet" />
+    <script src="../js/jquery.fancybox.js"></script>
+
+    <%-- Bootstrap --%>
+     <link href="../Vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+     <script src="../Vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Swiper slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!--Animate Css  -->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />-->
+    <!-- Main Css -->
+    <link href="../css/udayIndustries.css" rel="stylesheet" />
+
+    <style>
+        .height {height: 600px;}
+        /*Revel Scroll animation*/
+        .reveal {position: relative; transform: translateY(150px); opacity: 0; transition: all 2s ease;}
+        .reveal.activate {transform: translateY(0px);opacity: 1;}
+    </style>
+
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<%-- Header Starts --%>
+   <div id="navigationBar">
+        <div class="bg-white">
+            <div class="container-fluid">
+                <div class="p-2">
+                <!--<div class="px-4" id="pxpad">-->
+                <!--<div class="bg-white">-->
+                <!--<div class="p-3">-->
+                <!-- Navigations Start -->
+
+                <a href="#bannerSp" title="Uday Reshellers & cast Alloys LLp." class="txtDecNone">
+                    <img src="images/uday-reshellers-logo.png" alt="Uday Reshellers & cast Alloys LLp." class="logo me-2" /></a>
+                    <span class="semiBold semiMedium text-decoration-none">Uday Reshellers & cast Alloys LLp.</span>
+                    <div id="nav">
+                        <div id="topNavPanel">
+                            <div class="">
+                                <ul id="topNav">
+                                    <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+                                    <li><a href="#about">Home</a></li>
+                                    <li><a href="#about">About Us</a></li>
+                                    <li><a href="#serv">Products</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                                <div class="float_clear"></div>
+                                <div id="mobNav">
+                                    <div class="container">
+                                        <div class="ms-5 mt-4">
+                                            <span class="tiny upperCase text-white letter-sp-3 mrg_B_15">Phone:</span>
+                                            <a href="tel:(0233) 2645128" class="fontRegular text-white light text-decoration-none mb-2">(0233) 2645128</a>
+                                            <br />
+                                            <a href="tel:(0233) 2645128" class="fontRegular text-white light text-decoration-none">(0233) 2645928</a>
+                                            <span class="space30"></span>
+                                            <span class="tiny upperCase text-white letter-sp-3 mrg_B_15">Email:</span>
+                                            <a href="mailto:udayeng_5400&@gmail.com" class="text-decoration-none text-white breakWord txtDecNone">udayeng_5400&#64;gmail&#46;com</a>
+                                            <a href="mailto:udayreshellers009@gmail.com" class="text-white breakWord text-decoration-none">udayreshellers009&#64;gmail&#46;com</a>
+                                            <span class="space30"></span>
+                                            <span class="tiny upperCase text-white letter-sp-3 mrg_B_15">Follow Us:</span>
+                                            <a href="#" target="_blank" class="fb socIco" title="Follow us on facebook"></a>
+                                            <a href="#" target="_blank" class="insta socIco" title="Follow us on instagram"></a>
+                                            <a href="#" target="_blank" class="youTube socIco" title="Follow us on Youtube"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a id="navBtn" onclick="openNav()"></a>
+                    </div>
+            </div>
+                </div>
+        </div>
+        <!--<span class="space80"></span>
+        <span class="space40"></span>-->
+        <!-- Welcome area strat -->
+        <!--<div class="container">
+            <div class="col-12 mt-5">
+                <h2 class="semiBold small colorSec text-uppercase letter-sp2">Welcome to </h2>
+                <h1 class="bold text-white maintext text-uppercase">Uday Group of industries</h1>
+            </div>
+        </div>-->
+        <!-- Welcome area end -->
+        <!-- Home Link starts -->
+        <!--<div class="container-fluid">
+            <div class="px-4">
+                <div class="col-md-2 bredcrumbmenu">
+                    <div class="bg-white">
+                        <div class="p-3">
+                            <div class="d-flex align-items-start breadmenu">
+                                <a href="#" class="text-decoration-none colorBlack semiBold">Home</a>
+                                <div class="ms-3">
+                                    <span class="">|</span>
+                                </div>
+                                <div class="ms-3">
+                                    <div class="colorSec fontRegular semiBold">Our Companies</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+        <!-- Home Link End -->
+    </div>
+<%-- Header End --%>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <%-- Footer starts --%>
+     <!-- footer start -->
+
+    <div class="footer">
+        <span class="space40"></span>
+
+        <div class="container overflowHidden">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="p-2">
+                        <h4 class="footerCaption clrWhite mb-2 semiBold upperCase letter-sp-2">Main Menu</h4>
+                        <!-- <div class="fLine mb-3"><span class="fAbsLine"></span></div>-->
+                        <ul class="footerNav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="p-2">
+                        <h4 class="footerCaption clrWhite mb-2 semiBold upperCase letter-sp-2">Our Group</h4>
+                        <!--<div class="fLine mb-3"><span class="fAbsLine"></span></div>-->
+                        <div class="">
+                            <ul class="footerNav">
+                                <li><a href="<%=rootPath%>">Uday Innovations</a></li>
+                                <li><a href="about-us">Uday Reshellers & Cast Alloys LLP.</a></li>
+                                <li><a href="our-products">Uday Engineering Works</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="p-2">
+                        <h4 class="footerCaption clrWhite mb-2 semiBold upperCase letter-sp-2">Get Social</h4>
+                        <!--<div class="fLine mb-3"><span class="fAbsLine"></span></div>-->
+                        <a href="#" target="_blank" class="foo_fb foo_socialIco" title="Follow us on facebook"></a>
+                        <a href="#" target="_blank" class="foo_twitter foo_socialIco" title="Follow us on twitter"></a>
+                        <a href="#" target="_blank" class="foo_insta foo_socialIco" title="Follow us on Instagram"></a>
+                        <span class="space10"></span>
+                        <a href="#" class="email breakWord line-ht-5 small txtDecNone">udayeng_5400&#64;gmail&#46;com</a>
+                        <span class="space10"></span>
+                        <a href="#" class="email breakWord line-ht-5 small txtDecNone">udayreshellers009&#64;gmail&#46;com</a>
+                        <span class="space15"></span>
+                        <a href="#" class="foo_call line-ht-5 small txtDecNone">(0233) 2645128</a>
+                        <span class="space10"></span>
+                        <a href="#" class="foo_call line-ht-5 small txtDecNone">(0233) 2645928</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="p-2">
+                        <h4 class="footerCaption clrWhite mb-2 semiBold upperCase letter-sp-2">Contact Info</h4>
+                        <!--<div class="fLine mb-3"><span class="fAbsLine"></span></div>-->
+                        <span class="addr line-ht-5 small">Regd Office: Plot No. H-48, 49, M.I.D.C, Kupwad-416 436 Tal. Miraj, Dist.Sangli, (MS) Maharashtra.</span>
+                        <span class="addr line-ht-5 small">Factory: Gat No. 435/1, A/p. Tanang, Tal.Miraj, Dist.Sangli Maharashtra.</span>
+                        <span class="space15"></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="float_clear"></div>
+        </div>
+        <span class="space20"></span>
+        <div class="comfootbg">
+            <div class="container">
+                <div class="p-3">
+                    <span class="clrGrey mrg_B_5 small fontRegular">&copy; <%=currentYear %> |  Uday Reshellers , All Rights Reserved</span>
+                    <span class="clrGrey small fontRegular">Website By <a href="http://www.intellect-systems.com" target="_blank" class="intellect" title="Website Design and Development Service By Intellect Systems">Intellect Systems</a></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- footer end -->
+  
+    <script>
+        function reveal() {
+            //alert("function called")
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("activate");
+                } else {
+                    reveals[i].classList.remove("activate");
+                }
+            }
+        }
+        function loaded() {
+            //alert("function loaded");
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("activate");
+                } else {
+                    reveals[i].classList.remove("activate");
+                }
+            }
+            //alert("function load end");
+        }
+        window.addEventListener("scroll", reveal);
+        window.addEventListener("load", loaded);
+    </script>
+
+
+    <script>
+        var a = 0;
+        $(window).scroll(function () {
+
+            var oTop = $('#counter').offset().top - window.innerHeight;
+            if (a == 0 && $(window).scrollTop() > oTop) {
+                $('.count-num').each(function () {
+                    var $this = $(this),
+                        countTo = $this.attr('data-count');
+                    $({
+                        countNum: $this.text()
+                    }).animate({
+                        countNum: countTo
+                    },
+
+                        {
+
+                            duration: 2000,
+                            easing: 'swing',
+                            step: function () {
+                                $this.text(Math.floor(this.countNum));
+                            },
+                            complete: function () {
+                                $this.text(this.countNum);
+                                //alert('finished');
+                            }
+
+                        });
+                });
+                a = 1;
+            }
+
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            grabCursor: true,
+            effect: "creative",
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            creativeEffect: {
+                prev: {
+                    shadow: true,
+                    translate: [0, 0, -400],
+                },
+                next: {
+                    translate: ["100%", 0, 0],
+                },
+            },
+        });
+    </script>
+
+  <%--  <script>
+        $(function () {
+            alert("function called");
+            // Check the initial Poistion of the Sticky Header
+            var stickyHeaderTop = $('#navigationBar').offset().top;
+
+            $(window).scroll(function () {
+                alert("alert1");
+                if ($(window).scrollTop() > stickyHeaderTop) {
+                    $('#navigationBar').css({ position: 'fixed', top: '0px' });
+                    $('#navigationBar').css('display', 'block');
+                }
+                else {
+                    $('#navigationBar').css({ position: 'fixed', top: '0px' });
+                    $('#navigationBar').css('display', 'block');
+                }
+            });
+        });
+    </script>--%>
+
+
+    <script type="text/javascript">
+        function openNav() {
+            document.getElementById("topNavPanel").style.width = "320px";
+            document.getElementById("navBtn").style.zIndex = "0";
+        }
+
+        function closeNav() {
+            document.getElementById("topNavPanel").style.width = "0";
+            document.getElementById("navBtn").style.zIndex = "5";
+        }
+    </script>
+
+
+    <script>
+        setTimeout(function () {
+            // Remove the preloader when loading is complete
+            const preloader = document.querySelector('.preloader-container');
+            preloader.style.display = 'none';
+        }, 1000);
+    </script>
+   
+</body>
+</html>

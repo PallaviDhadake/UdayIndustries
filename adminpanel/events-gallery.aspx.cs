@@ -120,7 +120,7 @@ public partial class adminpanel_events_gallery : System.Web.UI.Page
                     strMarkup.Append("</div>");
                     strMarkup.Append("</div>");
                     strMarkup.Append("</div>");
-                    strMarkup.Append("<a href=\"add-events-photos.aspx?albumid=" + Request.QueryString["albumId"] + "&id=" + row["EvntGalPhotoId"] + "\" title=\"Delete Photo\"  class=\"gAnchdel\"></a>");
+                    strMarkup.Append("<a href=\"events-gallery.aspx?albumid=" + Request.QueryString["albumId"] + "&id=" + row["EvntGalPhotoId"] + "\" title=\"Delete Photo\"  class=\"gAnchdel\"></a>");
                     strMarkup.Append("</div>");
                 }
 
