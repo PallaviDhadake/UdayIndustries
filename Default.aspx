@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Uday Group Of Industries | Uday Innovations | Uday Reshellers & cast Alloys LLp. | Uday Engineering Works</title>
+    <title>Uday Group Of Industries | Uday Innovations | Uday Reshellers & cast Alloys LLp. | Uday Engineering Works </title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
