@@ -5,7 +5,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
      <%-- Banner starts --%>
-    <section id="reshellerbanner">
+    <section id="cahinbanner">
         <div class="pgHeader3" id="pagehead">
         <div class="headerOverlay d-flex align-items-center justify-content-center">
             <div class="container">
@@ -24,7 +24,7 @@
 
     <%-- About us starts --%>
     <span class="space40"></span>
-    <section id="aboutresh">
+    <section id="aboutresh" class="text-center">
         <div class="container">
               <div class="section-title">
                 <h2 class="text-center">About Uday Innovations</h2>
@@ -37,7 +37,7 @@
 
     <%-- Our Produts --%>
 
-    <section id="ourprodresh" class="bg-light">
+    <section id="chainproducts" class="bg-light">
         <span class="space30"></span>
         <div class="container">
             <div class="section-title">
@@ -90,6 +90,10 @@
             </div>
         </div>
         <span class="space30"></span>
+         <div class="text-center">
+            <a href="products" class="btnViewMore">View More</a>
+        </div>
+         <span class="space30"></span>
     </section>
 
 

@@ -30,10 +30,10 @@
 
 
             <div class="row g-0 border">
-                <div class="col-md-6 shadow">
+                <%--<div class="col-md-6 shadow">
                     <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
-                </div>
-                <div class="col-md-6 bg-light shadow">
+                </div>--%>
+                <div class="col-md-12 bg-light shadow">
                     <div class="p-5">
                         <h3 class="semiBold semiMedium mb-0">Sugar Mill Rollers</h3>
                         <span class="shorline themeBGSec"></span>
@@ -54,10 +54,10 @@
 
             <%-- Uday Special Grade Cast Iron Roller --%>
                   <div class="row g-0 border">
-                <div class="col-md-6 shadow">
+                <%--<div class="col-md-6 shadow">
                     <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
-                </div>
-                <div class="col-md-6 bg-light shadow">
+                </div>--%>
+                <div class="col-md-12 bg-light shadow">
                     <div class="p-5">
                         <h3 class="semiBold semiMedium mb-0">Uday Special Grade Cast Iron Roller</h3>
                         <span class="shorline themeBGSec"></span>
@@ -95,10 +95,10 @@
             <%-- Lotus Roller --%>
 
               <div class="row g-0 border">
-                <div class="col-md-6 shadow">
+                <%--<div class="col-md-6 shadow">
                     <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
-                </div>
-                <div class="col-md-6 bg-light shadow">
+                </div>--%>
+                <div class="col-md-12 bg-light shadow">
                     <div class="p-5">
                         <h3 class="semiBold semiMedium mb-0">Lotus Roller</h3>
                         <span class="shorline themeBGSec"></span>
@@ -132,10 +132,10 @@
             <%-- couch Roller --%>
 
               <div class="row g-0 border">
-                <div class="col-md-6 shadow">
+               <%-- <div class="col-md-6 shadow">
                     <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
-                </div>
-                <div class="col-md-6 bg-light shadow">
+                </div>--%>
+                <div class="col-md-12 bg-light shadow">
                     <div class="p-5">
                         <h3 class="semiBold semiMedium mb-0">Uday Spical Couch Rollers</h3>
                         <span class="shorline themeBGSec"></span>
@@ -164,7 +164,7 @@
 
               <div class="row g-0 border">
                 <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
+                    <img src="../images/products/reshellers/fabricated-roller.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
                     <div class="p-5">
@@ -182,10 +182,10 @@
             <%-- fabricated Roller --%>
 
               <div class="row g-0 border">
-                <div class="col-md-6 shadow">
+              <%--  <div class="col-md-6 shadow">
                     <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
-                </div>
-                <div class="col-md-6 bg-light shadow">
+                </div>--%>
+                <div class="col-md-12 bg-light shadow">
                     <div class="p-5">
                         <h3 class="semiBold semiMedium mb-0">Under Feed Roller</h3>
                         <span class="shorline themeBGSec"></span>
@@ -202,10 +202,10 @@
             <%-- Cast iron shell conventional typer roller --%>
 
               <div class="row g-0 border">
-                <div class="col-md-6 shadow">
+                <%--<div class="col-md-6 shadow">
                     <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
-                </div>
-                <div class="col-md-6 bg-light shadow">
+                </div>--%>
+                <div class="col-md-12 bg-light shadow">
                     <div class="p-5">
                         <h3 class="semiBold semiMedium mb-0">Cast iron shell conventional typer roller</h3>
                         <span class="shorline themeBGSec"></span>
@@ -223,10 +223,10 @@
              <%-- Uday roller grooving lathe  --%>
 
               <div class="row g-0 border">
-                <div class="col-md-6 shadow">
+                <%--<div class="col-md-6 shadow">
                     <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
-                </div>
-                <div class="col-md-6 bg-light shadow">
+                </div>--%>
+                <div class="col-md-12 bg-light shadow">
                     <div class="p-5">
                         <h3 class="semiBold semiMedium mb-0">Uday roller grooving lathe </h3>
                         <span class="shorline themeBGSec"></span>
@@ -248,28 +248,6 @@
 
              <%-- roller unit  --%>
 
-              <div class="row g-0 border">
-                <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
-                </div>
-                <div class="col-md-6 bg-light shadow">
-                    <div class="p-5">
-                        <h3 class="semiBold semiMedium mb-0">Roller Unit </h3>
-                        <span class="shorline themeBGSec"></span>
-                        <span class="space10"></span>
-                        <p class="fontRegular small line-ht-5">
-                           Uday department R & D back up and with the background of previous fruitful efforts, we had taken up development of a  heavy duty lathe  machine special design for grooving purpose.
-
-                            <span class="space10"></span>
-                            working of lathe machine  automation. accuracy maintain for work with time 
-                            <span class="space10"></span>
-                             While developing our Compact mill grooving lathe , we had crystal clear goals, to develop – Sturdy lathe which should also be easy to work, maintain and to operate. 
-                            <span class="space10"></span>
-                            Uday lathe work capabilities 40x80 mill to 55x110 mill rollers 
-                        </p>
-                    </div>
-                </div>
-            </div>
             <span class="space30"></span>
 
         </div>

@@ -33,7 +33,7 @@
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />-->
     <!-- Main Css -->
     <link href="../css/udayIndustries.css" rel="stylesheet" />
-
+   
     <style>
         .height {height: 600px;}
         /*Revel Scroll animation*/
@@ -47,26 +47,26 @@
 </head>
 <body>
 <%-- Header Starts --%>
-   <div id="navigationBar">
+    <div id="navigationBar">
         <div class="bg-white">
             <div class="container-fluid">
                 <div class="p-2">
-                <!--<div class="px-4" id="pxpad">-->
-                <!--<div class="bg-white">-->
-                <!--<div class="p-3">-->
-                <!-- Navigations Start -->
+                    <!--<div class="px-4" id="pxpad">-->
+                    <!--<div class="bg-white">-->
+                    <!--<div class="p-3">-->
+                    <!-- Navigations Start -->
 
-                <a href="#bannerSp" title="Uday Reshellers & cast Alloys LLp." class="txtDecNone">
-                    <img src="<%=rootPath + "images/uday-reshellers-logo.png"%>" alt="Uday Reshellers & cast Alloys LLp." class="logo me-2" /></a>
+                    <a href="<%=rootPath%>" title="Uday Innovations" class="txtDecNone">
+                        <img src="<%=rootPath + "images/uday-reshellers-logo.png"%>" alt="Uday Innovations." class="logo me-2" /></a>
                     <span class="semiBold semiMedium text-decoration-none">Uday Reshellers & cast Alloys LLp.</span>
                     <div id="nav">
                         <div id="topNavPanel">
                             <div class="">
                                 <ul id="topNav">
                                     <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
-                                    <li><a href="<%=rootPath%>">Home</a></li>
-                                    <li><a href="about-us">About Us</a></li>
-                                    <li><a href="products">Products</a></li>
+                                    <li><a href="<%=rootPath %>" class="homemenu">Home</a></li>
+                                    <li><a href="<%=rootPath + "uday-reshellers/about-us" %>">About Us</a></li>
+                                    <li><a href="<%=rootPath + "uday-reshellers/products" %> ">Products</a></li>
                                     <li><a href="#contact">Contact</a></li>
                                 </ul>
                                 <div class="float_clear"></div>
@@ -94,10 +94,11 @@
 
                         <a id="navBtn" onclick="openNav()"></a>
                     </div>
-            </div>
                 </div>
+            </div>
         </div>
     </div>
+
 <%-- Header End --%>
     <form id="form1" runat="server">
     <div>
@@ -182,6 +183,46 @@
     </div>
     <!-- footer end -->
   
+     <script type="text/javascript">
+         function openNav() {
+             document.getElementById("topNavPanel").style.width = "320px";
+             document.getElementById("navBtn").style.zIndex = "0";
+         }
+
+         function closeNav() {
+             //alert("nav closed")
+             document.getElementById("topNavPanel").style.width = "0";
+             //alert("top nav width 0")
+             document.getElementById("navBtn").style.zIndex = "5";
+         }
+     </script>
+
+
+    <script>
+        $(function () {
+            //alert("function called");
+            // Check the initial Poistion of the Sticky Header
+            var stickyHeaderTop = $('#mynav').offset().top;
+
+            $(window).scroll(function () {
+                alert("alert1");
+                if ($(window).scrollTop() > stickyHeaderTop) {
+                    $('#mynav').css({ position: 'fixed', top: '0px' });
+                    $('#mynav').css('display', 'block'); // fade in over 1000 milliseconds (1 second);
+                }
+                else {
+                    //$('#mynav').css({ position: 'sticky', top: '0px' });
+                    //$('#mynav').css('display', 'block');
+
+                    $('#mynav').css({ position: 'sticky', top: '0px' });
+                    $('#mynav').css('display', 'block').hide().fadeIn(1000); // fade in over 1000 milliseconds (1 second)
+
+                }
+            });
+        });
+    </script>
+
+
     <script>
         function reveal() {
             //alert("function called")
@@ -294,20 +335,6 @@
             });
         });
     </script>--%>
-
-
-    <script type="text/javascript">
-        function openNav() {
-            document.getElementById("topNavPanel").style.width = "320px";
-            document.getElementById("navBtn").style.zIndex = "0";
-        }
-
-        function closeNav() {
-            document.getElementById("topNavPanel").style.width = "0";
-            document.getElementById("navBtn").style.zIndex = "5";
-        }
-    </script>
-
 
     <script>
         setTimeout(function () {

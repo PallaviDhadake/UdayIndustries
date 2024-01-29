@@ -176,18 +176,25 @@ body{overflow-y: scroll !important; overflow: initial}
 /* Navigation */
 
 /* Navigation */
-#navrbar, #navigationBar{position:fixed; z-index:11112; top:0; background:#fff !important; width:100% !important; box-shadow: 5px 15px 25px rgba(0,0,0,0.3)}
-#topNavPanel{width:100% !important; -moz-transition:0.5s; -o-transition:0.5s; -webkit-transition:0.5s; transition:0.5s;}
+#navrbar, #navigationBar{position:fixed; z-index:9999; width:100%;}
+.navbar-nav .nav-item  a.nav-link{font-weight:600 !important; /*margin-left:-20px;*/  font-size:17px; margin-left:15px !important; margin:0; transition:width 0s ease, background .5s ease; transition:width .5s ease; color:#fff; text-align:right !important}
+.navbar-nav .nav-item  a.nav-link:hover{color:#FFC95F;}
+.navbar-nav .nav-item  a{display:inline-block; position:relative;}
+.navbar-nav .nav-item  a.nav-link{display:block; text-decoration:none; font-family: 'Open Sans', sans-serif; font-size:1em; line-height:1.3;/* color:#171717 !important;*/ padding:0.3em 0.8em; cursor:pointer}
+
+/*nav*/
+/* Navigation */
+#topNavPanel{width:100%; -moz-transition:0.5s; -o-transition:0.5s; -webkit-transition:0.5s; transition:0.5s;}
 #topNav{list-style:none; float:right; margin-top:-60px; margin-right:0;}
 #topNav li{display:inline; position:relative}
 #topNav li a{font-family: 'Open Sans', sans-serif; position:relative; font-weight:600; display:inline-block; text-decoration:none;color:#0089cf;font-size:1em;line-height:1.5;padding:10px 12px; letter-spacing:1px; transition:0.5s; border:2px solid #fff;}
 /*#topNav li a:before{content:''; position:absolute; left:50%; transform: translate(-50%, 0); bottom:5px; width:0; height:2px; background:#719558; transition:0.5s;}*/
-#topNav li a.subNav{background:url(../images/icons/navArrow.png) no-repeat right center;padding-right:23px!important; cursor:pointer;}
+/*#topNav li a.subNav{background:url(../images/icons/navArrow.png) no-repeat right center;padding-right:23px!important; cursor:pointer;}*/
 #topNav li a:hover{border:2px solid #0089cf; border-radius:20px;}
 #topNav li a:hover:before{width:100%;}
-#topNav li a.actPage{background:#57C6C0;}
+#topNav li a.actPage{background:#FFC95F;}
 #topNav li.app{display:none;}
-#navBtn{width:34px;height:34px;background:url(/images/icons/nav-btn.png) no-repeat left center;display:none; cursor:pointer; position:absolute; top:25px; right:0; }
+#navBtn{width:34px;height:34px;background:url(/images/icons/nav-btn.png) no-repeat left center;display:none; cursor:pointer; position:absolute; top:37px; right:30px; }
 
 #topNav ul{position:absolute; display:none; top:35px; left:0; padding:5px 0; background-color:#fff !important; border-bottom:3px solid #088393; box-shadow:2px 3px 10px rgba(0,0,0,0.4);}
 #topNav ul li{display:block; }
@@ -198,6 +205,7 @@ body{overflow-y: scroll !important; overflow: initial}
 #mobNav{display:none;}
 .closeBtn{position:absolute; top:5px; right:25px; font-size:36px; color:#fff; text-decoration:none; display:none;}
 #mobNav span{display:block !important;}
+
 /*Navigations End*/
 
 
@@ -447,8 +455,8 @@ body{overflow-y: scroll !important; overflow: initial}
 /*Top Projects*/
 .topprojbox{position:absolute; left:280px; top:300px; z-index:999 !important;}
 
-.btnViewMore{background:#0087cf; color:#ffffff !important; border:1px solid #0087cf; text-decoration:none; padding:8px 25px !important; border-radius:3px; -moz-transition:0.5s; -o-transition:0.5s; -webkit-transition:0.5s; transition:0.5s; display:inline-block;}
-.btnViewMore:hover{background:none; color:#0087cf !important; border:1px solid #0087cf;}
+.btnViewMore{background:#ffa000; color:#ffffff !important; border:1px solid #ffa000; text-decoration:none; padding:8px 25px !important; border-radius:3px; -moz-transition:0.5s; -o-transition:0.5s; -webkit-transition:0.5s; transition:0.5s; display:inline-block;}
+.btnViewMore:hover{background:none; color:#ffa000 !important; border:1px solid #ffa000;}
 
 
 /*stats*/
@@ -1007,6 +1015,12 @@ body{overflow-y: scroll !important; overflow: initial}
 .procatinnov2{background:url("../images/products/innovation/drop-forged.jpg") no-repeat center center; width:100%; height:200px;}
 .procatinnov3{background:url("../images/products/innovation/fabricated-chain.jpg") no-repeat center center; width:100%; height:200px;}
 .procatinnov4{background:url("../images/products/innovation/cane-carrier-chain.jpg") no-repeat center center; width:100%; height:200px;}
+#chainproducts.col-md-3{transition:0.5s}
+#chainproducts .col-md-3:hover .procatinnov1{border-bottom:3px solid #ffa000;}
+#chainproducts .col-md-3:hover .procatinnov2{border-bottom:3px solid #ffa000;}
+#chainproducts .col-md-3:hover .procatinnov3{border-bottom:3px solid #ffa000;}
+#chainproducts .col-md-3:hover .procatinnov4{border-bottom:3px solid #ffa000;}
+
 
 
 
@@ -1021,7 +1035,7 @@ body{overflow-y: scroll !important; overflow: initial}
 }
 @media (max-width: 1140px)  
 {
-  
+    /*.homemenu{background:#f22020 !important}*/
     #product .swiper-wrapper .swiper-slide {width: 40% !important;}
     .bannerht{height:400px !important;}
     #landinfo{display:none;}
@@ -1031,7 +1045,7 @@ body{overflow-y: scroll !important; overflow: initial}
     .line{display:none}
     .imgborder{margin-right:50px;}
     #lastele{margin-left:420px;}
-
+    .homemenu{margin-top:50px !important;}
      #navBtn, #mobNav{display:block !important;}
 	.mobNavLogo{display:block;}
     #topNavPanel{position:fixed; top:0; right:0; width:0; height:100%; z-index:2000; background:rgba(243, 129, 32, 0.9); overflow-x:hidden;  overflow-y:scroll; }
@@ -1045,7 +1059,7 @@ body{overflow-y: scroll !important; overflow: initial}
 	#topNav ul li{border:none !important; background:transparent !important;}
 	#topNav ul li a{display:block;padding:3px 0 3px 30px; font-size:0.9em; line-height:1.3; color:#fff !important;background:transparent;text-align:left; }
 	#topNav ul li a:hover{background:transparent !important; color:#d8162e !important;}
-	#topNav li.app{display:block;}
+	/*#topNav li.app{display:block;}*/
     .closeBtn{display:block;}
     .casestudyheading{left:0 !important; top:550px !important; width:200px;}
 }
@@ -1159,7 +1173,8 @@ body{overflow-y: scroll !important; overflow: initial}
 }
 @media (max-width: 414px) 
 {
-
+    #banner{margin-top:80px;} 
+    #banner h5{font-size:22px;}
       #testimonials .container{margin-top:840px !important;}
 
       #testimonials .container{margin-top:920px !important;}

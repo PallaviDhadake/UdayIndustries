@@ -53,17 +53,17 @@
                 <!--<div class="p-3">-->
                 <!-- Navigations Start -->
 
-                <a href="#bannerSp" title="Uday Reshellers & cast Alloys LLp." class="txtDecNone">
-                    <img src="<%=rootPath + "images/uday-chains-logo.png"%>" alt="Uday Reshellers & cast Alloys LLp." class="logo me-2" /></a>
-                    <span class="semiBold semiMedium text-decoration-none">Uday Reshellers & cast Alloys LLp.</span>
+                <a href="<%=rootPath%>" title="Uday Innovations" class="txtDecNone">
+                    <img src="<%=rootPath + "images/uday-chains-logo.png"%>" alt="Uday Innovations." class="logo me-2" /></a>
+                    <span class="semiBold semiMedium text-decoration-none">Uday Innovations</span>
                     <div id="nav">
                         <div id="topNavPanel">
                             <div class="">
                                 <ul id="topNav">
                                     <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
-                                    <li><a href="#about">Home</a></li>
-                                    <li><a href="#about">About Us</a></li>
-                                    <li><a href="#serv">Products</a></li>
+                                    <li><a href="<%=rootPath %>" class="homemenu">Home</a></li>
+                                    <li><a href="<%=rootPath + "uday-innovations/about-us" %>"">About Us</a></li>
+                                    <li><a href="<%=rootPath + "uday-innovations/products" %> ">Products</a></li>
                                     <li><a href="#contact">Contact</a></li>
                                 </ul>
                                 <div class="float_clear"></div>
@@ -88,11 +88,10 @@
                                 </div>
                             </div>
                         </div>
-
                         <a id="navBtn" onclick="openNav()"></a>
                     </div>
-            </div>
                 </div>
+            </div>
         </div>
     </div>
     <form id="form1" runat="server">

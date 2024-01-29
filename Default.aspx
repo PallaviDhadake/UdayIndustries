@@ -76,7 +76,7 @@
                             <div class="">
                                 <ul id="topNav">
                                     <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
-                                    <li><a href="#about">Home</a></li>
+                                    <li><a href="#about" class="homemenu">Home</a></li>
                                     <li><a href="#about">About Us</a></li>
                                     <li><a href="#serv">Our Group</a></li>
                                     <li><a href="#review">Case Study</a></li>
@@ -156,7 +156,7 @@
                 <div class="carousel-item active" data-aos="zoom-in" data-aos-duration="1000">
                     <img src="images/banner-image.jpg" class="d-block w-100" alt="...">
                     <div class="banneroverly" >
-                        <div class="container">
+                        <div class="container text-center">
                             <div class="row d-flex align-items-center justify-content-center bannerht">
                                 <div class="col-10">
                                     <div class="overlyBannr shadow">
@@ -172,7 +172,7 @@
                 <div class="carousel-item">
                     <img src="images/banner-1.jpg" class="img-fluid w-100" />
                     <div class="banneroverly">
-                        <div class="container animate__animated animate__backInLeft">
+                        <div class="container text-center animate__animated animate__backInLeft">
                             <div class="row d-flex align-items-center justify-content-center bannerht">
                                 <div class="col-10">
                                     <div class="overlyBannr shadow">
@@ -189,7 +189,7 @@
                 <div class="carousel-item">
                     <img src="images/banner-1.jpg" class="img-fluid w-100" />
                     <div class="banneroverly">
-                        <div class="container">
+                        <div class="container text-center">
                             <div class="row d-flex align-items-center justify-content-center bannerht">
                                 <div class="col-10">
                                     <div class="overlyBannr shadow">
@@ -230,13 +230,13 @@
             <p class="fontRegular line-ht-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
             <div class="row gy-3 mt-2" data-aos="fade-up" data-aos-duration="100">
                 <div class="col-lg-4">
-                    <a href="#" class="text-decoration-none">
+                    <a href="uday-innovations/about-us" class="text-decoration-none">
                         <div class="box">
                             <div class="bg-white shadow boxheight">
                                 <div class="col-first">
                                     <div class="p-3">
                                         <img src="images/uday-chains-logo.png" class="mb-2" />
-                                        <div class="semiBold semiMedium colorPrime mb-3">Uday Chains</div>
+                                        <div class="semiBold semiMedium colorPrime mb-3">Uday Innovations</div>
                                         <p class="fontRegular small line-ht-5 colorBlack">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                                     </div>
                                     <!--<span class="space30"></span>-->
@@ -248,7 +248,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="#" class="text-decoration-none">
+                    <a href="uday-reshellers/about-us" class="text-decoration-none">
                         <div class="box">
                             <div class="bg-white shadow boxheight">
                                 <div class="col-second">
@@ -711,7 +711,7 @@
 
     <script>
         function reveal() {
-            //alert("function called")
+            
             var reveals = document.querySelectorAll(".reveal");
             for (var i = 0; i < reveals.length; i++) {
                 var windowHeight = window.innerHeight;
@@ -725,7 +725,7 @@
             }
         }
         function loaded() {
-            //alert("function loaded");
+           
             var reveals = document.querySelectorAll(".reveal");
             for (var i = 0; i < reveals.length; i++) {
                 var windowHeight = window.innerHeight;
@@ -737,7 +737,7 @@
                     reveals[i].classList.remove("activate");
                 }
             }
-            //alert("function load end");
+           
         }
         window.addEventListener("scroll", reveal);
         window.addEventListener("load", loaded);
@@ -768,7 +768,7 @@
                             },
                             complete: function () {
                                 $this.text(this.countNum);
-                                //alert('finished');
+                               
                             }
 
                         });
@@ -804,12 +804,12 @@
 
     <script>
         $(function () {
-            //alert("function called");
+           
             // Check the initial Poistion of the Sticky Header
             var stickyHeaderTop = $('#navigationBar').offset().top;
 
             $(window).scroll(function () {
-                alert("alert1");
+                //alert("alert1");
                 if ($(window).scrollTop() > stickyHeaderTop) {
                     $('#navigationBar').css({ position: 'fixed', top: '0px' });
                     $('#navigationBar').css('display', 'block');
@@ -825,7 +825,7 @@
 
     <script type="text/javascript">
         function openNav() {
-            alert("open nav called")
+           // alert("open nav called")
             document.getElementById("topNavPanel").style.width = "320px";
             document.getElementById("navBtn").style.zIndex = "0";
         }

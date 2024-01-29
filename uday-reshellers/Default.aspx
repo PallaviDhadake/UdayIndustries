@@ -26,7 +26,7 @@
     <%-- About us starts --%>
     <span class="space40"></span>
     <section id="aboutresh">
-        <div class="container">
+        <div class="container text-center">
             <div class="section-title">
                 <h2 class="text-center">About Us</h2>
             </div>
@@ -34,6 +34,14 @@
                 We are one of the most prominent names in the industry for the manufacturing and supplying of the bets quality range of Sugar Mill Roller and Spare Parts. These Rollers are available in different Sizes as per the requirement of the clients. These sugar mills are manufactured using high grade raw material for reliability. We do not make compromise in terms of quality and so we test these mills on different quality parameters for flawless performance.
                 <span class="space10"></span>
                 We are leading manufacturers and suppliers of a defect free range of Spare parts of Sugar Mills and have carved a niche for ourselves in this product category. This range consists of Sugar mill bearings, Rollers and Mill spare parts. These can also be customized as per client specifications.   These spare parts are made in hi-tech manufacturing facilities under an experienced team of Quality controllers. These parts have high tensile strength, are durable and have a long service life. They also have easy installation features which make them highly desirable in this industry segment. 
+                <span class="space20"></span>
+              <%--  <span class="semiBold semiMedium colorPrime">Some Importants features</span>
+                <ul class="fontRegular line-ht-5">
+                    <li>Highly level of precision and quality</li>
+                    <li>Stringent Quality checks.</li>
+                    <li>Reliable suppliers.</li>
+                    <li>Highly skilled work force</li>
+                </ul>--%>
             </p>
         </div>
     </section>
@@ -94,7 +102,14 @@
                 </a>
             </div>
         </div>
+         <span class="space30"></span>
+       
+         <div class="text-center">
+            <a href="products" class="btnViewMore">View More</a>
+        </div>
         <span class="space30"></span>
+       
+        
     </section>
 
 

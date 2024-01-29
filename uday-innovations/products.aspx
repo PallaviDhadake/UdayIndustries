@@ -22,15 +22,15 @@
 
 
     <%-- Products starts --%>
-    <section id="chainproducts">
+    <section id="productsres">
         <div class="container">
             <div class="text-center">
                 <div class="section-title">
                     <h2 class="text-center">Products</h2>
                 </div>
             </div>
-            <p class="fontRegular small line-ht-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <span class="space10"></span>
+            <p class="fontRegular small line-ht-5">Our chain formula was engineered over 40 years ago with the knowledge that only making the chain hard would induce brittleness and making it malleable would make it susceptible to wear. Neither condition is acceptable for moving bulk materials; too hard and the chain link can fatigue crack causing failure, too soft and the chain is not suited to move hard aggressive materials.</p>
+            <span class="space20"></span>
            <%-- <div id="nav-container">
                 <div class="bg-white">
                     <ul id="prodnav">
@@ -47,7 +47,7 @@
              <%-- Bagasse Carrier Chain --%>
             <div class="row g-0 border" id="bagasse">
                 <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
+                    <img src="../images/products/innovation/Bagasse-Carrier.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
                     <div class="p-5">
@@ -80,7 +80,7 @@
                  <%-- Drop Forged Chain --%>
             <div class="row g-0 border" id="dropforged">
                 <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
+                    <img src="../images/products/innovation/drop-forged.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
                     <div class="p-5">
@@ -116,11 +116,11 @@
              <%-- Fabricated /Forged Rake Carrier Chain --%>
             <div class="row g-0 border" id="fabricated">
                 <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
+                    <img src="../images/products/innovation/fabricated-chain.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
                     <div class="p-5">
-                        <h3 class="semiBold semiMedium mb-0">Fabricated /Forged Rake Carrier Chain</h3>
+                        <h3 class="semiBold semiMedium mb-0">Fabricated / Forged Rake Carrier Chain</h3>
                         <span class="shorline themeBGSec"></span>
                         <span class="space10"></span>
                         <p class="fontRegular small line-ht-5">
@@ -149,7 +149,7 @@
             <%-- Cane carrier chain --%>
             <div class="row g-0 border" id="canecarrier">
                 <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
+                    <img src="../images/products/innovation/cane-carrier-chain.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
                     <div class="p-5">
@@ -176,7 +176,7 @@
             <%-- Rake Elevator --%>
             <div class="row g-0 border">
                 <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
+                    <img src="../images/products/innovation/rake-elevator.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
                     <div class="p-5">
@@ -200,11 +200,11 @@
             <%-- Feeder table/ pusher chain  --%>
             <div class="row g-0 border">
                 <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
+                    <img src="../images/products/innovation/feeder-table-pushr-chain.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
                     <div class="p-5">
-                        <h3 class="semiBold semiMedium mb-0">Feeder table/ pusher chain </h3>
+                        <h3 class="semiBold semiMedium mb-0">Feeder table / pusher chain </h3>
                         <span class="shorline themeBGSec"></span>
                         <span class="space10"></span>
                         <p class="fontRegular small line-ht-5">
@@ -228,7 +228,7 @@
               <%-- Slats  --%>
             <div class="row g-0 border">
                 <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
+                    <img src="../images/products/innovation/slats.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
                     <div class="p-5">
@@ -253,7 +253,7 @@
              <%-- TRIPLEX CHAIN  --%>
             <div class="row g-0 border">
                 <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
+                    <img src="../images/products/innovation/tripal-cahin.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
                     <div class="p-5">
@@ -275,36 +275,11 @@
             </div>
             <span class="space30"></span>
 
-             <%-- TRIPLEX CHAIN  --%>
-            <div class="row g-0 border">
-                <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
-                </div>
-                <div class="col-md-6 bg-light shadow">
-                    <div class="p-5">
-                        <h3 class="semiBold semiMedium mb-0">Tripal Chain</h3>
-                        <span class="shorline themeBGSec"></span>
-                        <span class="space10"></span>
-                        <p class="fontRegular small line-ht-5">
-                            Uday Chains have vast experience in manufacturing of Triplex roller chain. They have almost triple power transmissibility capacity. So, if the length of the change need to be fixed while increasing its power transmissibility capacity than Triplex Roller Chains are used.
-
-                            <span class="space10"></span>
-                         Chains under stringent quality control which ensures its performance at high loads and in adverse conditions.
-                            <span class="space10"></span>
-                         Uday chains roller chains in carbon steel & stainless steel with lot of variants depending upon the requirement of customer and its working conditions and environment.
-                             <span class="space10"></span>
-                            Roller chain is made of three strands in comparison to normal roller chain. Our chains are highly durable, heat resistant, abrasive resistant, have low coefficient of friction, power transmissibility factor is high. They are stronger.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <span class="space30"></span>
-
-
+          
              <%-- SIMPLEX ROLLER CHAIN  --%>
             <div class="row g-0 border">
                 <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
+                    <img src="../images/products/innovation/simplex-roller-chain.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
                     <div class="p-5">
@@ -333,11 +308,11 @@
              <%-- duplex CHAIN  --%>
             <div class="row g-0 border">
                 <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
+                    <img src="../images/products/innovation/duplex-chain.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
                     <div class="p-5">
-                        <h3 class="semiBold semiMedium mb-0">Simplex Roller Chain</h3>
+                        <h3 class="semiBold semiMedium mb-0">Duplex chains </h3>
                         <span class="shorline themeBGSec"></span>
                         <span class="space10"></span>
                         <p class="fontRegular small line-ht-5">
@@ -355,7 +330,7 @@
                     </div>
                 </div>
             </div>
-            <span class="space30"></span>
+            <span class="space40"></span>
         </div>
     </section>
 </asp:Content>

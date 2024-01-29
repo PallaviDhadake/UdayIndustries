@@ -1,22 +1,54 @@
 ﻿<%@ Page Title="Products | Uday Reshellers & cast Alloys LLp." Language="C#" MasterPageFile="~/uday-reshellers/MasterParent.master" AutoEventWireup="true" CodeFile="products.aspx.cs" Inherits="uday_reshellers_products" %>
+
 <%@ MasterType VirtualPath="~/uday-reshellers/MasterParent.master" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <style>
+        #nav-container {
+            position: relative;
+            z-index: 1000; /* Ensure the navigation stays on top of other elements */
+        }
+
+        .fixed-nav {
+            position: fixed !important;
+            top: 90px;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+            border:1px solid #0089cf;
+            /*padding:10px !important;*/
+        }
+    </style>
+    <script>
+        window.addEventListener('scroll', function () {
+            //this.alert("function called")
+            var navContainer = document.getElementById('nav-container');
+            var threshold = navContainer.offsetTop;
+
+            if (window.pageYOffset >= threshold) {
+                //this.alert("goes on pint")
+                navContainer.classList.add('fixed-nav');
+                //this.alert("complete")
+            } else {
+                navContainer.classList.add('nav-container');
+                navContainer.classList.remove('fixed-nav');
+            }
+        });
+    </script>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-      <%-- Banner starts --%>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <%-- Banner starts --%>
     <section id="reshellerbanner">
         <div class="pgHeader3" id="pagehead">
-        <div class="headerOverlay d-flex align-items-center justify-content-center">
-            <div class="container">
-                <div class="p-4">
-                    <h1 class="semiBold colorSec text-uppercase">Products</h1>
-                    <h2 class="pgsubtitle" data-aos="fade-right" data-aos-duration="1000">Our Popular Products</h2>
-                    <div class="float_clear"></div>
+            <div class="headerOverlay d-flex align-items-center justify-content-center">
+                <div class="container">
+                    <div class="p-4">
+                        <h1 class="semiBold colorSec text-uppercase">Products</h1>
+                        <h2 class="pgsubtitle" data-aos="fade-right" data-aos-duration="1000">Our Popular Products</h2>
+                        <div class="float_clear"></div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </section>
     <span class="space30"></span>
 
@@ -24,45 +56,35 @@
     <section id="reshellerproducts">
         <div class="container">
             <div class="text-center">
-                <div class="section-title">
-                    <h2 class="text-center">Products</h2>
-                </div>
-                <p class="fontRegular small line-ht-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <span class="space10"></span>
-               <%-- <div id="">
-                    <div class="bg-white">
-                        <ul id="prodnav">
-                            <li><a href="sugar-mill-rollers.aspx">Sugar Mill Rollers</a></li>
-                            <li><a href="#canehandling">Cane Handling</a></li>
-                            <li><a href="#canerpreparation">Cane Preparation </a></li>
-                            <li><a href="#canemilling">Cane Milling</a></li>
-                            <li><a href="#prohouseequip">Process House Equipment</a></li>
-                          
-                        </ul>
+                <div id="content">
+                    <div class="section-title">
+                        <h2 class="text-center">Products</h2>
                     </div>
-                </div>--%>
-                <div id="nav-container">
-                    <div class="bg-white">
-                        <ul id="prodnav">
-                            <li><a href="sugar-mill-rollers.aspx">Sugar Mill Rollers</a></li>
-                            <li><a href="#canehandling">Cane Handling</a></li>
-                            <li><a href="#canerpreparation">Cane Preparation </a></li>
-                            <li><a href="#canemilling">Cane Milling</a></li>
-                            <li><a href="#prohouseequip">Process House Equipment</a></li>
-                            <!-- <li><a href="#contact">Features</a></li> -->
-                        </ul>
-                    </div>
+                    <p class="fontRegular small line-ht-5">We are one of the most prominent names in the industry for the manufacturing and supplying of the bets quality range of Sugar Mill Roller and Spare Parts. These Rollers are available in different Sizes as per the requirement of the clients. These sugar mills are manufactured using high grade raw material for reliability. We do not make compromise in terms of quality and so we test these mills on different quality parameters for flawless performance.</p>
+                    <span class="space10"></span>
                 </div>
-<!-- Add more content to scroll -->
-<div id="content">
-    <!-- Your page content here -->
-</div>
-
-
             </div>
+        </div>
+        <div class="text-center">
+        <div id="nav-container">
+            <div class="bg-white">
+                <div class="p-3">
+                    <ul id="prodnav">
+                        <li><a href="sugar-mill-rollers.aspx">Sugar Mill Rollers</a></li>
+                        <li><a href="#canehandling">Cane Handling</a></li>
+                        <li><a href="#canerpreparation">Cane Preparation </a></li>
+                        <li><a href="#canemilling">Cane Milling</a></li>
+                        <li><a href="#prohouseequip">Process House Equipment</a></li>
+                        <!-- <li><a href="#contact">Features</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container">
             <span class="space20"></span>
             <h2 class="semiBold colorPrime mb-5 text-center" id="canehandling">Cane Handling</h2>
-            <div class="row g-0 border">
+            <div class="row g-0 border reveal">
                 <%-- Feeder tables --%>
                 <div class="col-md-6 shadow">
                     <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
@@ -86,10 +108,10 @@
             </div>
                 <span class="space30"></span>
 
-            <div class="row g-0 border">
+            <div class="row g-0 border reveal">
                 <%-- Cane Un-Loaders --%>
                 <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
+                    <img src="../images/products/reshellers/cane-unloadders.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
                     <div class="p-5">
@@ -119,9 +141,9 @@
             <span class="space30"></span>
 
              <%-- Main Cane Carrier  --%>
-            <div class="row g-0 border">
+            <div class="row g-0 border reveal">
                 <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
+                    <img src="../images/products/reshellers/main-cane-carrier.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
                     <div class="p-5">
@@ -148,9 +170,9 @@
 
 
              <%-- Intermediate Rake Type Carriers  --%>
-            <div class="row g-0 border">
+            <div class="row g-0 border reveal">
                 <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
+                    <img src="../images/products/reshellers/intermidiate-rake-carrier.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
                     <div class="p-5">
@@ -175,11 +197,11 @@
 
 
              <%-- Rake Carriers / Rake Elevators   --%>
-            <div class="row g-0 border">
-                <div class="col-md-6 shadow">
+            <div class="row g-0 border reveal">
+              <%--  <div class="col-md-6 shadow">
                     <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
-                </div>
-                <div class="col-md-6 bg-light shadow">
+                </div>--%>
+                <div class="col-md-12 bg-light shadow">
                     <div class="p-5">
                         <h3 class="semiBold semiMedium mb-0">Rake Carriers / Rake Elevators </h3>
                         <span class="shorline themeBGSec"></span>
@@ -199,10 +221,10 @@
 
             <%-- ========================== Cane Prepration ================================================= --%>
              <h2 class="semiBold colorPrime mb-5 text-center" id="canerpreparation">Cane Prepration</h2>
-            <div class="row g-0 border">
+            <div class="row g-0 border reveal">
                 <%-- Cane Chopper & Leveller --%>
                 <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
+                    <img src="../images/products/reshellers/cane-chopper-levller.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
                     <div class="p-5">
@@ -228,10 +250,10 @@
                 <span class="space30"></span>
 
 
-                   <div class="row g-0 border">
+                   <div class="row g-0 border reveal">
                 <%-- Cane Chopper & Leveller --%>
                 <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
+                    <img src="../images/products/reshellers/cane-fiberizer.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
                     <div class="p-5">
@@ -258,12 +280,12 @@
               <%-- ========================== Cane milling ================================================= --%>
              <h2 class="semiBold colorPrime mb-5 text-center" id="canemilling">Cane Milling</h2>
 
-              <div class="row g-0 border">
+              <div class="row g-0 border reveal">
                 <%-- MILL HOUSE EQUIPMENTS --%>
-                <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
-                </div>
-                <div class="col-md-6 bg-light shadow">
+                <%--<div class="col-md-6 shadow">
+                    <img src="../images/products/reshellers/mill-house-equipment.jpg" class="img-fluid w-100" />
+                </div>--%>
+                <div class="col-md-12 bg-light shadow">
                     <div class="p-5">
                         <h3 class="semiBold semiMedium mb-0">Mill House Equipments</h3>
                         <span class="shorline themeBGSec"></span>
@@ -276,12 +298,12 @@
             </div>
                 <span class="space30"></span>
 
-            <div class="row g-0 border">
+            <div class="row g-0 border reveal">
                 <%-- uday make mill  --%>
-                <div class="col-md-6 shadow">
+              <%--  <div class="col-md-6 shadow">
                     <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
-                </div>
-                <div class="col-md-6 bg-light shadow">
+                </div>--%>
+                <div class="col-md-12 bg-light shadow">
                     <div class="p-5">
                         <h3 class="semiBold semiMedium mb-0">Uday make mill </h3>
                         <span class="shorline themeBGSec"></span>
@@ -304,10 +326,10 @@
             </div>
                 <span class="space30"></span>
 
-                        <div class="row g-0 border">
+                        <div class="row g-0 border reveal">
                 <%--TRPF / GRPF Rollers  --%>
                 <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
+                    <img src="../images/products/reshellers/trpf-grpf-rollers.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
                     <div class="p-5">
@@ -323,12 +345,12 @@
             </div>
                 <span class="space30"></span>
 
-            <div class="row g-0 border">
+            <div class="row g-0 border reveal">
                 <%-- Swing Type Rope Coupling  --%>
-                <div class="col-md-6 shadow">
+              <%--  <div class="col-md-6 shadow">
                     <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
-                </div>
-                <div class="col-md-6 bg-light shadow">
+                </div>--%>
+                <div class="col-md-12 bg-light shadow">
                     <div class="p-5">
                         <h3 class="semiBold semiMedium mb-0">Swing Type Rope Coupling </h3>
                         <span class="shorline themeBGSec"></span>
@@ -351,12 +373,12 @@
             </div>
                 <span class="space30"></span>
 
-            <div class="row g-0 border">
+            <div class="row g-0 border reveal">
                 <%-- Mill House Cranes  --%>
-                <div class="col-md-6 shadow">
+               <%-- <div class="col-md-6 shadow">
                     <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
-                </div>
-                <div class="col-md-6 bg-light shadow">
+                </div>--%>
+                <div class="col-md-12 bg-light shadow">
                     <div class="p-5">
                         <h3 class="semiBold semiMedium mb-0">Mill House Cranes </h3>
                         <span class="shorline themeBGSec"></span>
@@ -386,13 +408,14 @@
 
             <%-- ========================== Process House Equipment ================================================= --%>
             <h2 class="semiBold colorPrime mb-5 text-center" id="prohouseequip">Process House Equipment</h2>
-
+            <img src="../images/products/reshellers/process-house-equipment.jpg" class="img-fluid w-100 h-25 border" />
+            <span class="space10"></span>
              <%-- ROBERT EVAPORATORS  --%>
-            <div class="row g-0 border">
-                <div class="col-md-6 shadow">
-                    <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
-                </div>
-                <div class="col-md-6 bg-light shadow">
+            <div class="row g-0 border reveal">
+               <%-- <div class="col-md-6 shadow">
+                     <img src="../images/products/reshellers/process-house-equipment.jpg" class="img-fluid w-100" />
+                </div>--%>
+                <div class="col-md-12 bg-light shadow">
                     <div class="p-5">
                         <h3 class="semiBold semiMedium mb-0">Robert Evaporators</h3>
                         <span class="shorline themeBGSec"></span>
@@ -411,11 +434,11 @@
 
 
               <%-- BATCH VACUUM PAN  --%>
-            <div class="row g-0 border">
-                <div class="col-md-6 shadow">
+            <div class="row g-0 border reveal">
+              <%--  <div class="col-md-6 shadow">
                     <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
-                </div>
-                <div class="col-md-6 bg-light shadow">
+                </div>--%>
+                <div class="col-md-12 bg-light shadow">
                     <div class="p-5">
                         <h3 class="semiBold semiMedium mb-0">Batch Vacuum Pan</h3>
                         <span class="shorline themeBGSec"></span>
@@ -440,7 +463,9 @@
             <%-- ========================== Process House Equipment ================================================= --%>
             <h2 class="semiBold colorPrime mb-5 text-center">Other Products</h2>
 
-            <div class="row">
+            <div class="row bg-light shadow reveal border p-5">
+                
+              
                 <div class="col-md-3">
                     <span class="semiBold semiMedium">&#187; Crown pinions</span>
                     <span class="space10"></span>
@@ -474,18 +499,58 @@
                 <span class="space20"></span> 
                 <span class="semiBold semiMedium colorPrime">Some Importants features</span>
                 <span class="space20"></span>
-                <ul class="px-4">
+                <ul class="px-4 fontRegular regular line-ht-7">
                     <li>Highly level of precision and quality.</li>
                     <li>Stringent Quality checks.</li>
                     <li>Reliable suppliers.</li>
                     <li>Highly skilled work force</li>
                 </ul>
+                    
             </div>
            
-        </div>
+                <span class="greyLine"></span>
+            <%-- ========================== Roller unit ================================================= --%>
+            <h2 class="semiBold colorPrime mb-5 text-center">Roller Unit</h2>
+            <div class="row bg-light shadow reveal border p-5">
+                <div class="col-md-6">
+                    <ul class="fontRegular regular line-ht-7">
+                        <li>Cast iron shell conventional typer roller</li>
+                        <li>Cast iron shell Kamal /lotus  type roller ( single ,double & triple nozzle construction )</li>
+                        <li>Uday make special alloys rollers shell with shaft.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="fontRegular regular line-ht-7">
+                        <li>TRPF,TRF & UFR  conventional type.</li>
+                        <li>TRPF,TRF & UFR lotus rollers.</li>
+                        <li>GRPF Rollers</li>
+                    </ul>
+                </div>
+                <span class="space10"></span>
+                  <span class="semiBold semiMedium colorPrime">Rollers unit services</span>
+            <span class="space10"></span>
+                <div class="row">
+                <div class="col-md-6">
+                    <ul class="fontRegular regular line-ht-7">
+                        <li>Reshelling mill rollers.</li>
+                        <li>Regrooving mill rollers. </li>
+                        <li>Re - conditioning of shaft rollers.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="fontRegular regular line-ht-7">
+                        <li>Mill roller Forged shaft machining.</li>
+                        <li>Reshelling of  existing TRPF rollers.</li>
+                        <li>Re-conditioning TRPF roller shells.</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+           </div>
+       
     </section>
     <span class="space40"></span>
-    
+
     <%-- Reshellers product starts --%>
 </asp:Content>
 

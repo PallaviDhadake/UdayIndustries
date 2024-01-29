@@ -33,7 +33,7 @@
         routes.MapPageRoute("abt-route", "about-us", "~/about-us.aspx");
         // routes.MapPageRoute("projects-route", "our-projects", "~/projects.aspx");
         routes.MapPageRoute("prodresh-route", "uday-reshellers/products", "~/uday-reshellers/products.aspx");
-        routes.MapPageRoute("prodinnovations-route", "uday-innovations/products", "~/uday-innovations/career.aspx");
+        routes.MapPageRoute("prodinnovations-route", "uday-innovations/products", "~/uday-innovations/products.aspx");
         routes.MapPageRoute("reshabout-route", "uday-reshellers/about-us", "~/uday-reshellers/default.aspx");
         routes.MapPageRoute("innovabout-route", "uday-innovations/about-us", "~/uday-innovations/default.aspx");
         routes.MapPageRoute("sugarmill-route", "uday-reshellers/sugar-mill-rollers", "~/uday-reshellers/sugar-mill-rollers.aspx");
