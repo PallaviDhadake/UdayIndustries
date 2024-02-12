@@ -2,6 +2,9 @@
 <%@ MasterType VirtualPath="~/uday-innovations/MasterParent.master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <style>
+        .productbg{background:#cbd7d6}
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
       <%-- Banner starts --%>
@@ -18,18 +21,16 @@
         </div>
     </div>
     </section>
-    <span class="space30"></span>
-
-
     <%-- Products starts --%>
-    <section id="productsres">
+    <section id="productsres" class="productbg">
+        <span class="space30"></span>
         <div class="container">
             <div class="text-center">
                 <div class="section-title">
                     <h2 class="text-center">Products</h2>
                 </div>
             </div>
-            <p class="fontRegular small line-ht-5">Our chain formula was engineered over 40 years ago with the knowledge that only making the chain hard would induce brittleness and making it malleable would make it susceptible to wear. Neither condition is acceptable for moving bulk materials; too hard and the chain link can fatigue crack causing failure, too soft and the chain is not suited to move hard aggressive materials.</p>
+            <p class="fontRegular small line-ht-5 text-center">Our chain formula was engineered over 40 years ago with the knowledge that only making the chain hard would induce brittleness and making it malleable would make it susceptible to wear. Neither condition is acceptable for moving bulk materials; too hard and the chain link can fatigue crack causing failure, too soft and the chain is not suited to move hard aggressive materials.</p>
             <span class="space20"></span>
            <%-- <div id="nav-container">
                 <div class="bg-white">
@@ -46,7 +47,7 @@
 
              <%-- Bagasse Carrier Chain --%>
             <div class="row g-0 border" id="bagasse">
-                <div class="col-md-6 shadow">
+                <div class="col-md-6 shadow bg-white">
                     <img src="../images/products/innovation/Bagasse-Carrier.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
@@ -79,7 +80,7 @@
 
                  <%-- Drop Forged Chain --%>
             <div class="row g-0 border" id="dropforged">
-                <div class="col-md-6 shadow">
+                <div class="col-md-6 shadow bg-white">
                     <img src="../images/products/innovation/drop-forged.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
@@ -115,7 +116,7 @@
 
              <%-- Fabricated /Forged Rake Carrier Chain --%>
             <div class="row g-0 border" id="fabricated">
-                <div class="col-md-6 shadow">
+                <div class="col-md-6 shadow bg-white">
                     <img src="../images/products/innovation/fabricated-chain.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
@@ -148,7 +149,7 @@
 
             <%-- Cane carrier chain --%>
             <div class="row g-0 border" id="canecarrier">
-                <div class="col-md-6 shadow">
+                <div class="col-md-6 shadow bg-white">
                     <img src="../images/products/innovation/cane-carrier-chain.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
@@ -175,7 +176,7 @@
 
             <%-- Rake Elevator --%>
             <div class="row g-0 border">
-                <div class="col-md-6 shadow">
+                <div class="col-md-6 shadow bg-white">
                     <img src="../images/products/innovation/rake-elevator.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
@@ -199,7 +200,7 @@
 
             <%-- Feeder table/ pusher chain  --%>
             <div class="row g-0 border">
-                <div class="col-md-6 shadow">
+                <div class="col-md-6 shadow bg-white">
                     <img src="../images/products/innovation/feeder-table-pushr-chain.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
@@ -227,7 +228,7 @@
 
               <%-- Slats  --%>
             <div class="row g-0 border">
-                <div class="col-md-6 shadow">
+                <div class="col-md-6 shadow bg-white">
                     <img src="../images/products/innovation/slats.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
@@ -252,7 +253,7 @@
 
              <%-- TRIPLEX CHAIN  --%>
             <div class="row g-0 border">
-                <div class="col-md-6 shadow">
+                <div class="col-md-6 shadow bg-white">
                     <img src="../images/products/innovation/tripal-cahin.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
@@ -278,7 +279,7 @@
           
              <%-- SIMPLEX ROLLER CHAIN  --%>
             <div class="row g-0 border">
-                <div class="col-md-6 shadow">
+                <div class="col-md-6 shadow bg-white">
                     <img src="../images/products/innovation/simplex-roller-chain.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
@@ -307,7 +308,7 @@
 
              <%-- duplex CHAIN  --%>
             <div class="row g-0 border">
-                <div class="col-md-6 shadow">
+                <div class="col-md-6 shadow bg-white">
                     <img src="../images/products/innovation/duplex-chain.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">

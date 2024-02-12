@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Uday Reshellers & cast Alloys LLp." Language="C#" MasterPageFile="~/uday-reshellers/MasterParent.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="uday_reshellers_Default" %>
+﻿<%@ Page Title="Uday Reshelles & cast Alloys LLp." Language="C#" MasterPageFile="~/uday-reshellers/MasterParent.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="uday_reshellers_Default" %>
 <%@ MasterType VirtualPath="~/uday-reshellers/MasterParent.master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
@@ -11,8 +11,8 @@
         <div class="headerOverlay d-flex align-items-center justify-content-center">
             <div class="container">
                 <div class="p-4">
-                    <h1 class="semiBold colorSec text-uppercase">Uday Reshellers</h1>
-                    <h2 class="pgsubtitle" data-aos="fade-right" data-aos-duration="1000">About Reshellers & cast Alloys LLp.</h2>
+                    <h1 class="semiBold colorSec text-uppercase">Uday Reshelles & Cast Alloys LLP</h1>
+                    <%--<h2 class="pgsubtitle" data-aos="fade-right" data-aos-duration="1000">About Reshelles & cast Alloys LLp.</h2>--%>
                     <div class="float_clear"></div>
                 </div>
             </div>

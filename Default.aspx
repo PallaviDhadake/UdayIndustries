@@ -10,15 +10,14 @@
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
-     <!-- Font Lato -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+     <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <%--<link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet"/>--%>
 
-
-    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap" rel="stylesheet">-->
     <!-- Bootstrap -->
     <link href="Vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <script src="Vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -154,14 +153,14 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-aos="zoom-in" data-aos-duration="1000">
-                    <img src="images/banner-image.jpg" class="d-block w-100" alt="...">
+                    <img src="images/banner-image.jpg" class="d-block w-100" alt="..."/>
                     <div class="banneroverly" >
                         <div class="container text-center">
                             <div class="row d-flex align-items-center justify-content-center bannerht">
                                 <div class="col-10">
                                     <div class="overlyBannr shadow">
                                         <div class="p-4">
-                                            <h5 class="semiBold large colorWhite">First slide label loem ipsum doller imposut lorem ipsum doller ipsum</h5>
+                                            <h2 class="semiBold xx-large colorSec text-uppercase">Welcome to Uday Group of Industries</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -170,14 +169,14 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/banner-1.jpg" class="img-fluid w-100" />
+                    <img src="images/banner-image.jpg" class="img-fluid w-100" />
                     <div class="banneroverly">
                         <div class="container text-center animate__animated animate__backInLeft">
                             <div class="row d-flex align-items-center justify-content-center bannerht">
                                 <div class="col-10">
                                     <div class="overlyBannr shadow">
                                         <div class="p-4">
-                                            <h5 class="semiBold large colorWhite">First slide label loem ipsum doller imposut lorem ipsum doller ipsum</h5>
+                                             <h2 class="semiBold xx-large colorSec text-uppercase">Determine to serve industry at global level </h2>
                                         </div>
                                     </div>
                                 </div>
@@ -187,14 +186,14 @@
                 </div>
 
                 <div class="carousel-item">
-                    <img src="images/banner-1.jpg" class="img-fluid w-100" />
+                    <img src="images/banner-image.jpg" class="img-fluid w-100" />
                     <div class="banneroverly">
                         <div class="container text-center">
                             <div class="row d-flex align-items-center justify-content-center bannerht">
                                 <div class="col-10">
                                     <div class="overlyBannr shadow">
                                         <div class="p-4">
-                                            <h5 class="semiBold large colorWhite">First slide label loem ipsum doller imposut lorem ipsum doller ipsum</h5>
+                                            <h2 class="semiBold xx-large colorSec text-uppercase">Innovation at Work, Always</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -227,17 +226,17 @@
 
             <!--<h3 class="bold regular text-uppercase colorSec letter-sp2">our</h3>
             <div class="bold medium text-uppercase letter-sp2 mb-2">Group of companies</div>-->
-            <p class="fontRegular line-ht-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            <p class="fontRegular line-ht-5">The idea behind uday was originated almost about 40years ago. An Holistic approach towards its work and absolute passion for innovative technology; has now converted that idea into UDAY GROUP OF COMPANIES. Having substantial experience of Mill House Equipment and particularly having experienced the shortcomings and problems of these, this Manufacturing Enterprise was founded with strong thrust in Research & Development</p>
             <div class="row gy-3 mt-2" data-aos="fade-up" data-aos-duration="100">
                 <div class="col-lg-4">
                     <a href="uday-innovations/about-us" class="text-decoration-none">
                         <div class="box">
-                            <div class="bg-white shadow boxheight">
+                            <div class="groupbox shadow boxheight">
                                 <div class="col-first">
                                     <div class="p-3">
                                         <img src="images/uday-chains-logo.png" class="mb-2" />
                                         <div class="semiBold semiMedium colorPrime mb-3">Uday Innovations</div>
-                                        <p class="fontRegular small line-ht-5 colorBlack">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                        <p class="fontRegular small line-ht-5 colorBlack">Our chain formula was engineered over 40 years ago with the knowledge that only making the chain hard would induce brittleness and making it malleable would make it susceptible to wear</p>
                                     </div>
                                     <!--<span class="space30"></span>-->
                                 </div>
@@ -250,12 +249,12 @@
                 <div class="col-lg-4">
                     <a href="uday-reshellers/about-us" class="text-decoration-none">
                         <div class="box">
-                            <div class="bg-white shadow boxheight">
+                            <div class="groupbox shadow boxheight">
                                 <div class="col-second">
                                     <div class="p-3">
                                         <img src="images/uday-reshellers-logo.png" class="mb-2" />
-                                        <div class="semiBold semiMedium colorPrime mb-3">Uday Reshellers & Cast Alloys LLP.</div>
-                                        <p class="fontRegular small line-ht-5 colorBlack">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                        <div class="semiBold semiMedium colorPrime mb-3">Uday Reshelles & Cast Alloys LLP.</div>
+                                        <p class="fontRegular small line-ht-5 colorBlack">We are leading manufacturers and suppliers of a defect free range of Spare parts of Sugar Mills and have carved a niche for ourselves in this product category.</p>
                                     </div>
 
                                 </div>
@@ -268,7 +267,7 @@
                 <div class="col-lg-4">
                     <a href="#" class="text-decoration-none">
                         <div class="box">
-                            <div class="bg-white shadow boxheight">
+                            <div class="groupbox shadow boxheight">
                                 <div class="col-third">
                                     <div class="p-3">
                                         <img src="images/uday-engg-logo.png" class="mb-2" />
@@ -283,7 +282,8 @@
                         </div>
                     </a>
                 </div>
-                <span class="space50"></span>
+                <span class="space80"></span>
+                <span class="space40"></span>
             </div>
         </div>
         <span class="space70"></span>
@@ -627,11 +627,12 @@
     <div class="footer">
         <span class="space40"></span>
 
-        <div class="container overflowHidden">
+        <div class="container-fluid overflowHidden">
             <div class="row">
-                <div class="col-lg-3">
-                    <div class="p-2">
-                        <h4 class="footerCaption clrWhite mb-2 semiBold upperCase letter-sp-2">Main Menu</h4>
+                <div class="col-lg-2">
+                    <div class="">
+                        <img src="images/uday-industries-logo.png" class="img-fluid"/>
+                        <%--<h4 class="footerCaption clrWhite mb-2 semiBold upperCase letter-sp-2">Main Menu</h4>
                         <!-- <div class="fLine mb-3"><span class="fAbsLine"></span></div>-->
                         <ul class="footerNav">
                             <li><a href="#">Home</a></li>
@@ -642,13 +643,15 @@
                             <li><a href="#">News</a></li>
                             <li><a href="#">Career</a></li>
                             <li><a href="#">Contact us</a></li>
-                        </ul>
+                        </ul>--%>
                     </div>
                 </div>
                 <div class="col-lg-3">
+                    <div class="footerHeading"> 
+                        <h4 class="footerCaption clrWhite semiBold upperCase mt-2 letter-sp-2">Our Group</h4>
+                    </div>
+                     <span class="space20"></span>
                     <div class="p-2">
-                        <h4 class="footerCaption clrWhite mb-2 semiBold upperCase letter-sp-2">Our Group</h4>
-                        <!--<div class="fLine mb-3"><span class="fAbsLine"></span></div>-->
                         <div class="">
                             <ul class="footerNav">
                                 <li><a href="<%=rootPath%>">Uday Innovations</a></li>
@@ -659,13 +662,13 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
+                     <div class="footerHeading"> 
+                        <h4 class="footerCaption clrWhite semiBold upperCase mt-2 letter-sp-2">Get Social</h4>
+                     </div>
+                    <span class="space20"></span>
                     <div class="p-2">
-                        <h4 class="footerCaption clrWhite mb-2 semiBold upperCase letter-sp-2">Get Social</h4>
+                        <%--<h4 class="footerCaption clrWhite mb-2 semiBold upperCase letter-sp-2">Get Social</h4>--%>
                         <!--<div class="fLine mb-3"><span class="fAbsLine"></span></div>-->
-                        <a href="#" target="_blank" class="foo_fb foo_socialIco" title="Follow us on facebook"></a>
-                        <a href="#" target="_blank" class="foo_twitter foo_socialIco" title="Follow us on twitter"></a>
-                        <a href="#" target="_blank" class="foo_insta foo_socialIco" title="Follow us on Instagram"></a>
-                        <span class="space10"></span>
                         <a href="#" class="email breakWord line-ht-5 small txtDecNone">udayeng_5400&#64;gmail&#46;com</a>
                         <span class="space10"></span>
                         <a href="#" class="email breakWord line-ht-5 small txtDecNone">udayreshellers009&#64;gmail&#46;com</a>
@@ -673,17 +676,29 @@
                         <a href="#" class="foo_call line-ht-5 small txtDecNone">(0233) 2645128</a>
                         <span class="space10"></span>
                         <a href="#" class="foo_call line-ht-5 small txtDecNone">(0233) 2645928</a>
+                        <span class="space10"></span>
+                         <a href="#" target="_blank" class="foo_fb foo_socialIco" title="Follow us on facebook"></a>
+                        <a href="#" target="_blank" class="foo_twitter foo_socialIco" title="Follow us on twitter"></a>
+                        <a href="#" target="_blank" class="foo_insta foo_socialIco" title="Follow us on Instagram"></a>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="p-2">
-                        <h4 class="footerCaption clrWhite mb-2 semiBold upperCase letter-sp-2">Contact Info</h4>
-                        <!--<div class="fLine mb-3"><span class="fAbsLine"></span></div>-->
-                        <span class="addr line-ht-5 small">Regd Office: Plot No. H-48, 49, M.I.D.C, Kupwad-416 436 Tal. Miraj, Dist.Sangli, (MS) Maharashtra.</span>
-                        <span class="addr line-ht-5 small">Factory: Gat No. 435/1, A/p. Tanang, Tal.Miraj, Dist.Sangli Maharashtra.</span>
-                        <span class="space15"></span>
-
+                <div class="col-lg-4">
+                    <div class="contactinfobox">
+                        <div class="p-4">
+                            <span class="addr line-ht-5 small text-black">Regd Office: Plot No. H-48, 49, M.I.D.C, Kupwad-416 436 Tal. Miraj, Dist.Sangli, (MS) Maharashtra.</span>
+                            <span class="space15"></span>
+                            <span class="addr line-ht-5 small text-black">Factory: Gat No. 435/1, A/p. Tanang, Tal.Miraj, Dist.Sangli Maharashtra.</span>
+                            <span class="space15"></span>
+                        </div>
                     </div>
+
+                    <%--<div class="footerHeading"> 
+                        <h4 class="footerCaption clrWhite semiBold upperCase mt-2 letter-sp-2">Contact Info</h4>
+                     </div>
+                    <div class="p-2">
+                      <h4 class="footerCaption clrWhite mb-2 semiBold upperCase letter-sp-2">Contact Info</h4>
+                        <!--<div class="fLine mb-3"><span class="fAbsLine"></span></div>-->
+                    </div>--%>
                 </div>
             </div>
             <div class="float_clear"></div>
@@ -692,17 +707,15 @@
         <div class="comfootbg">
             <div class="container">
                 <div class="p-3">
-                    <span class="clrGrey mrg_B_5 small fontRegular">&copy; <%=currentYear %> |  Uday Group Of Industries , All Rights Reserved</span>
+                    <span class="clrGrey mrg_B_5 small fontRegular">&copy; <%=currentYear %> | Uday Group Of Industries , All Rights Reserved</span>
                     <span class="clrGrey small fontRegular">Website By <a href="http://www.intellect-systems.com" target="_blank" class="intellect" title="Website Design and Development Service By Intellect Systems">Intellect Systems</a></span>
                 </div>
             </div>
         </div>
-
     </div>
     <!-- footer end -->
+
     <!-- Scroll Animation Script-->
-
-
     <!--<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
         // Initialize AOS when the page is loaded

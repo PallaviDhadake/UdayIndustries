@@ -11,7 +11,7 @@
             <div class="container">
                 <div class="p-4">
                     <h1 class="semiBold colorSec text-uppercase">Sugar Mill Rollers</h1>
-                    <h2 class="pgsubtitle" data-aos="fade-right" data-aos-duration="1000">lorem ipsum lorem doller ipset</h2>
+                    <%--<h2 class="pgsubtitle" data-aos="fade-right" data-aos-duration="1000">lorem ipsum lorem doller ipset</h2>--%>
                     <div class="float_clear"></div>
                 </div>
             </div>

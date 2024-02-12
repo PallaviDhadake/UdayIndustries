@@ -29,7 +29,7 @@
               <div class="section-title">
                 <h2 class="text-center">About Uday Innovations</h2>
             </div>
-            <p class="fontRegular small line-ht-5"> Our chain formula was engineered over 40 years ago with the knowledge that only making the chain hard would induce brittleness and making it malleable would make it susceptible to wear. Neither condition is acceptable for moving bulk materials; too hard and the chain link can fatigue crack causing failure, too soft and the chain is not suited to move hard aggressive materials.</p>
+            <p class="fontRegular small line-ht-5"> Our chain formula was engineered over 40 years ago with the knowledge that only making the chain hard would induce brittleness and making it malleable would make it susceptible to wear. Neither condition is acceptable for moving bulk materials too hard and the chain link can fatigue crack causing failure, too soft and the chain is not suited to move hard aggressive materials.</p>
         </div>
     </section>
     <span class="space40"></span>

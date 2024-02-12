@@ -17,6 +17,7 @@
             border:1px solid #0089cf;
             /*padding:10px !important;*/
         }
+        .prodpgbg{background:#e5f2f1}
     </style>
     <script>
         window.addEventListener('scroll', function () {
@@ -50,10 +51,11 @@
             </div>
         </div>
     </section>
-    <span class="space30"></span>
+    
 
     <%-- Reshellers product starts --%>
-    <section id="reshellerproducts">
+    <section id="reshellerproducts" class="prodpgbg">
+        <span class="space30"></span>
         <div class="container">
             <div class="text-center">
                 <div id="content">
@@ -86,7 +88,7 @@
             <h2 class="semiBold colorPrime mb-5 text-center" id="canehandling">Cane Handling</h2>
             <div class="row g-0 border reveal">
                 <%-- Feeder tables --%>
-                <div class="col-md-6 shadow">
+                <div class="col-md-6 shadow bg-white">
                     <img src="../images/products/reshellers/feeder-table.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
@@ -110,7 +112,7 @@
 
             <div class="row g-0 border reveal">
                 <%-- Cane Un-Loaders --%>
-                <div class="col-md-6 shadow">
+                <div class="col-md-6 shadow bg-white">
                     <img src="../images/products/reshellers/cane-unloadders.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
@@ -142,7 +144,7 @@
 
              <%-- Main Cane Carrier  --%>
             <div class="row g-0 border reveal">
-                <div class="col-md-6 shadow">
+                <div class="col-md-6 shadow bg-white">
                     <img src="../images/products/reshellers/main-cane-carrier.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
@@ -171,7 +173,7 @@
 
              <%-- Intermediate Rake Type Carriers  --%>
             <div class="row g-0 border reveal">
-                <div class="col-md-6 shadow">
+                <div class="col-md-6 shadow bg-white">
                     <img src="../images/products/reshellers/intermidiate-rake-carrier.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
@@ -223,7 +225,7 @@
              <h2 class="semiBold colorPrime mb-5 text-center" id="canerpreparation">Cane Prepration</h2>
             <div class="row g-0 border reveal">
                 <%-- Cane Chopper & Leveller --%>
-                <div class="col-md-6 shadow">
+                <div class="col-md-6 shadow bg-white">
                     <img src="../images/products/reshellers/cane-chopper-levller.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
@@ -252,7 +254,7 @@
 
                    <div class="row g-0 border reveal">
                 <%-- Cane Chopper & Leveller --%>
-                <div class="col-md-6 shadow">
+                <div class="col-md-6 shadow bg-white">
                     <img src="../images/products/reshellers/cane-fiberizer.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">
@@ -328,7 +330,7 @@
 
                         <div class="row g-0 border reveal">
                 <%--TRPF / GRPF Rollers  --%>
-                <div class="col-md-6 shadow">
+                <div class="col-md-6 shadow bg-white">
                     <img src="../images/products/reshellers/trpf-grpf-rollers.jpg" class="img-fluid w-100" />
                 </div>
                 <div class="col-md-6 bg-light shadow">

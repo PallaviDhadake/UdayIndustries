@@ -2,7 +2,7 @@
                                                                     Generic CSS
 =======================================================================================================================================*/
 * {
-    font-family: 'Lato';
+    font-family: 'Poppins', sans-serif;
     border: 0;
     margin: 0;
     padding: 0;
@@ -38,11 +38,11 @@ body{overflow-y: scroll !important; overflow: initial}
 
 /*Fonts*/
 
-.light{font-family: 'Lato', sans-serif; font-weight: 100;}
-.fontRegular{font-family: 'Lato', sans-serif; font-weight:400;}
-.semiBold{font-family: 'Lato', sans-serif; font-weight:700;}
-.bold{font-family: 'Lato', sans-serif; font-weight:900;}
-
+.light{font-family: 'Poppins', sans-serif !important; font-weight:300;}
+.fontRegular{font-family: 'Poppins', sans-serif; font-weight:400;}
+.fontMedium{font-family: 'Poppins', sans-serif; font-weight:500;}
+.semiBold{font-family: 'Poppins', sans-serif; font-weight:600;}
+.bold{font-family: 'Poppins', sans-serif; font-weight:700;}
 .upperCase{text-transform:uppercase}
 .strike{ text-decoration:line-through}
 
@@ -248,14 +248,22 @@ body{overflow-y: scroll !important; overflow: initial}
 
 /*---------------Group of company------------------------*/
 .compgrouplogo{background:url("../images/group-comp.jpg") no-repeat center center; width:100%; height:250px; transition:0.5s}
+.productpgbg{background:url("../images/productspgbanner.jpg") no-repeat center center; width:100%; height:100%;}
 /*.compgrouplogo:hover{border-left:4px solid #008bd0; border-bottom:4px solid #008bd0}*/
 
 /*---------------Group of company end------------------------*/
 
 /*----------------Box border css--------------------------*/
-.boxheight{height:254px ; background:#008bd0}
+.boxheight{height:290px ; background:#008bd0}
 
-.box {width: 100%; height: 265px !important; background: #fff; margin: auto; border: 5px solid #fff; text-align: center; color: #fff;
+.groupbox{background:#fff; transition:0.5s}
+.groupbox:hover{background:#4197c2; color:#fff !important;}
+
+.groupbox:hover .colorBlack{color:#fff !important}
+.groupbox:hover .colorPrime{color:#fff !important}
+
+
+.box {width: 100%; height: 300px !important; background: #fff; margin: auto; border: 5px solid #fff; text-align: center; color: #fff;
     position: relative; top: 50px; cursor: pointer; transition: 500ms ease;}
 
     .box:before {position: absolute; width: 0; height: 4px; content: ""; background: #ffa000; top: -2px; left: -2px; transition: 100ms width ease 300ms; -web-kit-transition: 100ms width ease 300ms;}
@@ -273,11 +281,11 @@ body{overflow-y: scroll !important; overflow: initial}
 
     .box:hover:before {width: 350px; transition: 100ms width ease 0ms; -web-kit-transition: 100ms width ease 0ms;}
 
-    .box:hover:after {height: 255px; transition: 100ms height ease 100ms; -web-kit-transition: 100ms height ease 100ms;}
+    .box:hover:after {height: 300px; transition: 100ms height ease 100ms; -web-kit-transition: 100ms height ease 100ms;}
 
     .box:hover .box-inner:after {width: 350px; transition: 100ms width ease 200ms; -web-kit-transition: 100ms width ease 200ms;}
 
-    .box:hover .box-inner:before {height: 265px; transition: 100ms height ease 300ms; -web-kit-transition: 100ms height ease 300ms;}
+    .box:hover .box-inner:before {height: 320px; transition: 100ms height ease 300ms; -web-kit-transition: 100ms height ease 300ms;}
 
 /*----------------Box border css end--------------------------*/
 
@@ -701,17 +709,18 @@ body{overflow-y: scroll !important; overflow: initial}
 .footerBanner{background:url("../images/royalcity-footer.jpg") no-repeat center center; background-size:cover; width:100%; height:auto;}
 
 /*footer*/
-.bgfooter{background:#1e1e1e;}
+.bgfooter{background:#cbcdcb;}
 .intellect{text-decoration:none; color:#7f888b; font-weight:600;}
 .intellect:hover{color:#76c04e;}
 .clr555{color:#555;}
-.footer {background: #1d2122}
+.footer {background: #cbcdcb}
 .comfootbg{background:#141819}
+.footerHeading{background:#141819; display:inline-block; padding:2px 30px; }
 .footer span {display: block; color: #7f888b;}
-.footerCaption{font-size:1.4em; line-height:1.5; color:#fff;}
+.footerCaption{font-size:1.2em; line-height:1.5; color:#fff;}
 .footerNav{list-style:none}
 .footerNav li{padding-left:0 !important;}
-.footerNav li a{text-decoration:none;display:inline-block; margin-left:-22px !important; color:#7f888b; font-size:0.9em; line-height:1.3 !important; font-weight:400;}
+.footerNav li a{text-decoration:none;display:inline-block; margin-left:-22px !important; color:#000; font-size:0.9em; line-height:1.3 !important; font-weight:400;}
 .footerNav li a:hover{color:#00b5f0;}
 .intellect{text-decoration:none; color:#7f888b; font-weight:600;}
 .intellect:hover{color:#0187ce;}
@@ -730,10 +739,11 @@ body{overflow-y: scroll !important; overflow: initial}
 
 
 /*contact info*/
-.addr{background:url("../images/icons/location.png") no-repeat top left; display:block; padding-left:34px; font-weight:400; color:#7f888b;}
-.email{background:url("../images/icons/mail.png") no-repeat top left; display:block; text-decoration:none; padding-left:34px;  font-weight:400; color:#7f888b;}
+.contactinfobox{background:linear-gradient(to top, #058bcf, #ffff); border-radius:0 0 20px 20px;}
+.addr{background:url("../images/icons/location.png") no-repeat top left; display:block; padding-left:34px; font-weight:400; color:#000;}
+.email{background:url("../images/icons/email-footer.png") no-repeat top left; display:block; text-decoration:none; padding-left:34px;  font-weight:400; color:#000;}
 .email:hover{color:#7f888b;}
-.foo_call{background:url("../images/icons/call.png") no-repeat top left; display:block; text-decoration:none; padding-left:34px; font-weight:400; color:#7f888b; }
+.foo_call{background:url("../images/icons/phone-call.png") no-repeat top left; display:block; text-decoration:none; padding-left:34px; font-weight:400; color:#000;}
 .foo_call:hover{color:#7f888b;}
 .breakWord{word-wrap:break-word;}
 
@@ -848,7 +858,7 @@ body{overflow-y: scroll !important; overflow: initial}
 .btnwork:hover{background:#fa3b62; color:#ffffff !important;}
 
 .height{height: 300px;}
-.bannerht{height:495px;}
+.bannerht{height:650px;}
 
 
 /*Event Gallery*/
@@ -858,7 +868,7 @@ body{overflow-y: scroll !important; overflow: initial}
 #event .swiper-button-prev {color:#fff;}
 */
 
-/*About us page */
+/* About us page */
 
 /*Team Page*/
 .teambox{background:url(../images/icons/team.png) no-repeat center center;}
